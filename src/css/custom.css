@@ -1,0 +1,46 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #ff0172;
+  --ifm-color-primary-dark: #e60067;
+  --ifm-color-primary-darker: #da0061;
+  --ifm-color-primary-darkest: #b30050;
+  --ifm-color-primary-light: #ff1b80;
+  --ifm-color-primary-lighter: #ff2787;
+  --ifm-color-primary-lightest: #ff4e9d;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #bda0ee;
+  --ifm-color-primary-dark: #a67ee8;
+  --ifm-color-primary-darker: #9a6de5;
+  --ifm-color-primary-darkest: #773bdc;
+  --ifm-color-primary-light: #d4c2f4;
+  --ifm-color-primary-lighter: #e0d3f7;
+  --ifm-color-primary-lightest: #ffffff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Undo Docusaurus styling for code blocks in the learn section. */
+.learn-page code {
+  border: none;
+  background-color: initial;
+}
+
+.learn-page pre {
+  border: none;
+  background-color: initial;
+  padding: initial;
+}
