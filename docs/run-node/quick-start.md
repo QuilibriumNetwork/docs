@@ -29,6 +29,48 @@ cd ceremonyclient/node
 
 This script is intended to help get started quickly, but for robust deployments it is recommended to use some service orchestration solution (e.g. `systemd` on Linux).
 
+## Running via service file (Linux)
+
+Create the service file and open it:
+
+```bash
+nano /lib/systemd/system/ceremonyclient.service
+```
+
+Paste the below code (If your working directory is different from "root" than edit the code accordingly):
+
+```bash
+[Unit]
+Description=Ceremony Client Go App Service
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=5s
+WorkingDirectory=/root/ceremonyclient/node
+ExecStart=/root/ceremonyclient/node/release_autorun.sh
+
+[Install]
+WantedBy=multi-user.target
+
+```
+
+Save the file, exit and enable the service:
+
+```bash
+sudo systemctl daemon-reload && sudo systemctl enable ceremonyclient
+```
+
+Start the node
+
+```bash
+service ceremonyclient start
+```
+
+Now the node will start automaytically after each reboot. The service uses the release_autorun.sh script, so it will also periodically check for new releases.
+
+If you prefer to run the node directly via binary, you can simply change the *ExecStart* line of the service file and use the correct binary file name there.
+
 ## Backups
 
 The node's configuration, private keys and database must be backed up in order to claim rewards. 
