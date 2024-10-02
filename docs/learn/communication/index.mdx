@@ -3,11 +3,15 @@ import Figure from '@site/src/components/Figure';
 
 # Foundations: Communication
 
-Communication between nodes is the fundamental building block upon which the network is constructed. 
-The network's communication can be separated out into four components: the [Planted Clique Addressing Scheme](.
-/addressing.md), E2EE via the [Triple-Ratchet Protocol](./e2ee), Shuffled Lattice Routing Protocol, and the P2P 
-[Gossip Layer](./p2p-communication). 
-These components are explained in this section in completion to the extent they are isolated, however they are combined in the Block Storage section to fulfill the construction of a data store for a hypergraph.
+The network's communication between nodes is the fundamental building block on which the rest of the network is built upon.
+
+In order to explain the how the network facilitates communication between nodes, the communication topic needs be separated into four components: 
+ 1. [Network addressing](./addressing) of content and applications
+ 2. [End-to-end Encryption](./e2ee) accomplished by the Triple-Ratchet Protocol
+ 3. [Mixnet Routing](./mixnet-routing) by the Shuffled Lattice Routing Protocol
+ 4. [P2P Communications](./p2p-communication) by extending the GossipSub protocol into BlossomSub.
+
+It should be noted that the explanations found here are done in isolation and are combined with the [Block Storage components](/docs/learn/block-storage/) to fulfill the construction of a data store for a hypergraph.
 
 <Figure src="/img/docs/learn/communication/BlossomSub.png" alt="A diagram depicting the high level network structure" />
 
