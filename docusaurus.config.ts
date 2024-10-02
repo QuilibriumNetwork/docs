@@ -9,7 +9,7 @@ Copyright © ${new Date().getFullYear()} Quilibrium, Inc. \
 Built with Docusaurus.`
 
 const config: Config = {
-  title: 'Quilibrium Documentation',
+  title: 'Quilibrium Docs',
   tagline: 'Learn how to get started building on the network, run a node or just understand the technology',
   favicon: 'img/favicon.png',
 
