@@ -33,9 +33,9 @@ This script is intended to help get started quickly, but for robust deployments 
 
 The node's configuration, private keys and database must be backed up in order to claim rewards. 
 
-If you followed the instructions in the [Autorun](#autorun) section, this data will be stored in the `ceremonclient/node/.config` directory. It's recommended to back up this entire directory. 
+If you followed the instructions in the [Autorun](#autorun) section, this data will be stored in the `ceremonyclient/node/.config` directory. It's recommended to back up this entire directory. 
 
-The `./config/keys.yml` and `./config/config.yml` files contain private keys and should be encrypted in backups. If you back up the entire directory, it's easiest to encrypt the entire backup.
+The `.config/keys.yml` and `.config/config.yml` files contain private keys and should be encrypted in backups. If you back up the entire directory, it's easiest to encrypt the entire backup.
 
 
 
