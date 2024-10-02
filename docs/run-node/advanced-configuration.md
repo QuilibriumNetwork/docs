@@ -100,6 +100,8 @@ This section denotes all additional configuration values at the root of the conf
 
 ```
 logFile: <string>
+listenGrpcMultiaddr: <multiaddr> - the multiaddr this node will listen on for gRPC calls 
+listenRESTMultiaddr: <multiaddr> - the multiaddr this node listen on for REST requests
 ```
 
 ## 2.0 Combined Seniority Prover Keys
