@@ -106,12 +106,18 @@ listenRESTMultiaddr: <multiaddr> - the multiaddr this node listen on for REST re
 
 ## 2.0 Combined Seniority Prover Keys
 
+> **Important**
+> 
+> When 2.0 is released, there will be a 24 hour stasis lock where no actions on the network can take place, and no tokens can be moved. This is the ideal time to perform prover key combination (merging), as there is ample time to get ahead of prover enrollment without being late to the stasis unlock. Merging can be done after the unlock period, but if you are running the auto-upgrade script, you will want to be sure to do this before the stasis lock period ends, as once keys have been enrolled for a prover, they cannot be merged, and the node will do this automatically after the stasis lock is lifted. QClient binaries will be simultaneously available with the updated node software, and the latest releases for qclient can always be found at https://releases.quilibrium.com/qclient-release.
+
+The upgrade to 2.0 introduces the concept of seniority with respect to precedence in joining prover rings. Seniority is a special global-level value which the network uses to resolve conflicts on enrollment attempts on a prover ring. During the first 24 hours of the upgrade's release, no transactions can happen on the network, and no prover ring enrollment occurs. Afterwards, when the network is unlocked, nodes will automatically attempt to join the prover rings they are capable of supporting, based on the data workers of the node. This process requires no action on the part of the node operator, unless you specifically wish to combine keys previously used to increase seniority.
+
 If you are upgrading to 2.0 and wish to combine historic keys from different eras of the network for improved seniority, you will need:
 
 - For keys prior to 1.4.19, the config.yml and keys.yml files in the .config folder
 - After 1.4.19, the entire .config folder
 
-Note, you can only combine _one_ set of keys from 1.4.19 and above with older keys, and seniority of the older keys is not a pure summation – overlapping ranges are not counted multiple times, and their use for prover enrollment can only occur _once_ (you cannot use older keys twice for multiple sets of 1.4.19 keys).
+Note, you can only combine _one_ set of keys from 1.4.19 and above with older keys, and seniority of the older keys is not a pure summation – overlapping ranges are not counted multiple times, and their use for prover enrollment can only occur _once_ (you cannot use older keys twice for multiple sets of 1.4.19 keys). If you use multiple sets of keys from after 1.4.19, only one will be used for seniority for post-1.4.19 seniority.
 
 Each bundle of keys/store files should live in separate folders (e.g. 1.4.19 config in `.config/`, older keys in `.config1/`, `.config2/`, `.config3/`).
 
@@ -122,6 +128,8 @@ For the example provided, it is assumed qclient lives in the `client/` folder al
 ```
 qclient config prover merge ../node/.config ../node/.config1 ../node/.config2 ../node/.config3
 ```
+
+Be sure to restart your node after running this command.
 
 The 1.4.19+ config folder should be the first folder in this series.
 
@@ -140,3 +148,5 @@ engine:
     "/path/to/.config3/"
   ]
 ```
+
+Be sure to restart your node after making this configuration change.
