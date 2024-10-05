@@ -99,7 +99,7 @@ db:
 This section denotes all additional configuration values at the root of the config file.
 
 ```
-logFile: <string>
+logFile: <string> - the path to the log file for the node
 listenGrpcMultiaddr: <multiaddr> - the multiaddr this node will listen on for gRPC calls 
 listenRESTMultiaddr: <multiaddr> - the multiaddr this node listen on for REST requests
 ```
@@ -121,7 +121,7 @@ Note, you can only combine _one_ set of keys from 1.4.19 and above with older ke
 
 Each bundle of keys/store files should live in separate folders (e.g. 1.4.19 config in `.config/`, older keys in `.config1/`, `.config2/`, `.config3/`).
 
-### Via qclient:
+### Merging keys with qclient
 
 For the example provided, it is assumed qclient lives in the `client/` folder alongside the `node/` folder where the `.config*/` folders are contained:
 
@@ -135,7 +135,7 @@ The 1.4.19+ config folder should be the first folder in this series.
 
 To see what seniority this combination yields (minus the effective range for the 1.4.19+ keys, which is determined after stasis unlock) without making permanent changes, append `--dry-run` to the end of the command.
 
-### Via configuration:
+### Merging keys in the config.yml file
 
 Under the `engine` section noted above, add the optional field `multisigProverEnrollmentPaths`:
 
