@@ -87,6 +87,12 @@ const config: Config = {
           label: 'Learn',
         },
         {
+          type: 'docSidebar',
+          sidebarId: 'blockchain-users',
+          position: 'left',
+          label: 'Blockchain Users',
+        },
+        {
           label: 'Quilibrium Website',
           href: 'https://quilibrium.com',
           position: 'right',
