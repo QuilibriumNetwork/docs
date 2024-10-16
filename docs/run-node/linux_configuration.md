@@ -15,18 +15,27 @@ Paste the below code (If your working directory is different from "root" than ed
 ```bash
 [Unit]
 Description=Ceremony Client Go App Service
+StartLimitIntervalSec=0
+StartLimitBurst=0
 
 [Service]
 Type=simple
 Restart=always
 RestartSec=5s
 WorkingDirectory=/root/ceremonyclient/node
-ExecStart=/root/ceremonyclient/node/release_autorun.sh
+ExecStart=bash -e /root/ceremonyclient/node/release_autorun.sh
+KillSignal=SIGINT
+RestartKillSignal=SIGINT
+FinalKillSignal=SIGKILL
+TimeoutStopSec=30s"
 
 [Install]
 WantedBy=multi-user.target
 
 ```
+> [!WARNING]
+> The above setup allows easy management and auto-updates of the node by executing the release_autorun.sh, but won't work to stop the node gracefully (SIGINT), which could cause your node to receive penalties. The reason is that the SIGINT command is not trapped by the release_autorun.sh, which is the one running your node process.\
+> A better setup would be to change the ExecStart line of the service file and use the correct node binary file name there. If you do this, you will have to manually update the node as well as edit your service file with the new binary name.
 
 Save the file, exit and enable the service:
 
@@ -40,9 +49,7 @@ Start the node
 service ceremonyclient start
 ```
 
-Now the node will start automaytically after each reboot. The service uses the release_autorun.sh script, so it will also periodically check for new releases.
-
-If you prefer to run the node directly via binary, you can simply change the *ExecStart* line of the service file and use the correct binary file name there.
+Now the node will start automaytically after each reboot.
 
 ## Useful node commands
 
