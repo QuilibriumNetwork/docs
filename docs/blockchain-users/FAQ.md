@@ -40,9 +40,7 @@ Discord especially, as the project started from a discord alternative.
 
 ### How fast is Quilibrium?
 
-The Quilibrium network has been tested to handle up to 100 million messages per second (MPS), demonstrating its capability to support highly demanding applications such as social networks and financial services for processing payments or trades.
-
-While MPS is not exactly the same as transactions per second (TPS), they are closely related. The actual TPS depends on the number of nodes available to handle the load. Initial estimates, based on previous node count statistics, suggest a realistic upper bound of 1.5-2.5 million TPS.
+Quilibrium was designed to support ultra-scale applications like Discord fully onchain.
 
 ### How does Quilibrium balance privacy with preventing criminal activities?
 
@@ -82,13 +80,13 @@ Here's a very short list of Quilibrium's core technologies with brief descriptio
 
 ### What are the core technologies used in Quilibrium?
 
-1. VDFs: For timestamping and proving block storage
-2. Oblivious Transfer: Enables private data querying
-3. Oblivious Hypergraph: Stores data while maintaining privacy
-4. E2EE Encryption: Secures communication between participants
-5. Triple-Ratchet: Provides secure group communication
-6. SLRP: Allows anonymous message routing
-7. RPM: Enhances anonymity in message routing
+1. VDFs: For timestamping and proving block storage - [learn more](https://docs.quilibrium.com/docs/learn/block-storage/vdfs)
+2. Oblivious Transfer: Enables private data querying - [learn more](https://docs.quilibrium.com/docs/learn/oblivious-hypergraph/oblivious-transfer)
+3. Oblivious Hypergraph: Stores data while maintaining privacy - [learn more](https://docs.quilibrium.com/docs/learn/oblivious-hypergraph/)
+4. E2EE Encryption: Secures communication between participants - [learn more](https://docs.quilibrium.com/docs/learn/communication/e2ee)
+5. Triple-Ratchet: Provides secure group communication - [learn more](https://docs.quilibrium.com/docs/learn/communication/mixnet-routing)
+6. SLRP: Allows anonymous message routing - [learn more](https://docs.quilibrium.com/docs/learn/communication/mixnet-routing)
+7. RPM: Enhances anonymity in message routing - [learn more](https://docs.quilibrium.com/docs/learn/communication/mixnet-routing)
 8. BlossomSub: Efficiently propagates messages across the network
 
 These technologies work together to create a secure, private, and efficient decentralized network.
