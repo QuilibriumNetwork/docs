@@ -4,11 +4,9 @@ sidebar_position: 2
 
 # Advanced Configuration
 
-Configuration is managed via the `config.yml` file, located in the config directory either specified at runtime or 
-defaulting to the `.config/` folder in the node project. 
+Configuration is managed via the `config.yml` file, located in the config directory either specified at runtime or defaulting to the `.config/` folder in the node project. 
 
-If there are multiple options listed for a configuration 
-value, the first one is the default value.
+If there are multiple options listed for a configuration value, the first one is the default value.
 
 ## Key Section
 
