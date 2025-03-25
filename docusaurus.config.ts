@@ -88,9 +88,9 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
-          sidebarId: 'blockchain-users',
+          sidebarId: 'discover',
           position: 'left',
-          label: 'Blockchain Users',
+          label: 'Discover',
         },
         {
           label: 'Quilibrium Website',
