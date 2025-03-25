@@ -88,9 +88,9 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
-          sidebarId: 'blockchain-users',
+          sidebarId: 'discover',
           position: 'left',
-          label: 'Blockchain Users',
+          label: 'Discover',
         },
         {
           label: 'Quilibrium Website',
@@ -122,6 +122,10 @@ const config: Config = {
               label: 'Learn',
               to: '/docs/learn/communication/',
             },
+            {
+              label: 'Discover',
+              to: '/docs/discover/FAQ/',
+            },
           ],
         },
         {
@@ -143,6 +147,10 @@ const config: Config = {
             {
               label: 'Quilibrium Website',
               href: 'https://quilibrium.com',
+            },
+            {
+              label: 'X',
+              href: 'https://x.com/QuilibriumInc',
             },
             {
               label: 'Blog',
