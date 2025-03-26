@@ -41,5 +41,8 @@ Q prioritizes privacy at every level:
 * **Analytic and transactional privacy**: Uses techniques designed to prevent **MEV (Maximal Extractable Value)** attacks, a problem Ethereum has struggled with.
 * **Input privacy**: Achieved through a **multi-party confidential compute execution environment**, ensuring that data remains secure even during processing.
 
----
-*This content is a summary of an article by [_Cassandra Heart_](https://warpcast.com/cassie), published on the [_Quilibrium official blog_](https://paragraph.xyz/@quilibrium.com/q-rude-faq#h-what-the-fuck-is-q)*
+:::info
+
+This content is a summary of [this article](https://paragraph.xyz/@quilibrium.com/q-rude-faq#h-what-the-fuck-is-q) by [Cassandra Heart](https://warpcast.com/cassie).
+
+:::
