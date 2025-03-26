@@ -2,7 +2,7 @@
 
 Quilibrium employs a generational token issuance model that dynamically adjusts based on network-wide computational progress, ensuring long-term sustainability and decentralization. Instead of a fixed emission schedule, new $QUIL emissions are triggered when the network surpasses predefined computational milestones.
 
-## $QUIL token
+## $QUIL Token
 
 :::info
 
@@ -13,7 +13,7 @@ $QUIL is a utility token designed for use within the Quilibrium network. It is n
 $QUIL native tokens can only be mined. There was no allocation to VCs, no premine, and no airdrops.\
 $wQUIL is the official token bridged to Ethereum, contract: `0x8143182a775c54578c8b7b3ef77982498866945d`
 
-## Token emissions for the current generation
+## Token Emissions for the Current Generation
 
 The current generation will last until 100 millions iterations are reached. This is roughly estimated to happen around 2033.
 

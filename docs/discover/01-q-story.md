@@ -7,7 +7,7 @@ Curious how it all began? Presenting... the "Q story".
 📅 2018 \
 Quilibrium is beginning to take shape in Cassie's mind… while she works on different components of the network, with the idea of creating a private and safe Discord alternative called "Howler" (now [Quorum Messenger](https://www.quorummessenger.com/))
 
-### 💀 Internet declared "dead"
+### 💀 Internet Declared "Dead"
 
 📅 August 2021 \
 Cassie's public declaration to pivot towards a fully decentralized direction. Realization that centralized powers exert too much control over user freedom, necessitating a solution beyond just a Discord alternative.
@@ -32,12 +32,12 @@ Pushing Quilibrium to its limits, stress-testing everything from BFT consensus t
 📅 March 2024 - October 2024\
 Gradual roll out and testing of the components required for mainnet: Autoscaling, Hypergraph, Onion Routing and Mixnet. This phase contains the updates: Sunset > Nightfall > Midnight (mainnet)
 
-### 🌉 Ethereum bridge
+### 🌉 Ethereum Bridge
 
 📅 May 13, 2024 \
 Rolling out the Ethereum bridge first version, to allow early node runners to claim their hard-earned tokens as wrapped $QUIL ($wQUIL).
 
-### 🌃 Midnight (v2.1 - mainnet)
+### 🌃 Midnight (v2.1 - Mainnet)
 
 📅 Q4 2024\
 First stage of Mainnet is deployed on a single shard, where node runner's rewards are automatically minted to their keyed accounts.

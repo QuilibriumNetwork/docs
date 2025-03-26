@@ -1,4 +1,4 @@
-# Gas fees and dynamic fee market on Quilibrium
+# Gas Fees and Dynamic Fee Market on Quilibrium
 
 Quilibrium’s gas fee system is built around a **dynamic fee market** that adapts to network usage. Fees are calculated based on three key factors:
 

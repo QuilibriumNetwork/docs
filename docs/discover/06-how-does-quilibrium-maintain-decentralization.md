@@ -1,5 +1,5 @@
 
-# How does Quilibrium maintain decentralization?
+# How does Quilibrium Maintain Decentralization?
 
 One of the biggest problems in **blockchain mining** is **centralization**—where a small number of **powerful miners** dominate the network and control most of the rewards. This happens in **Bitcoin** and other Proof-of-Work (PoW) systems because of how mining rewards are distributed.
 
