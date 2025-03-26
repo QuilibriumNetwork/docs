@@ -2,7 +2,7 @@
 
 Quilibrium employs a generational token issuance model that dynamically adjusts based on network-wide computational progress, ensuring long-term sustainability and decentralization. Instead of a fixed emission schedule, new $QUIL emissions are triggered when the network surpasses predefined computational milestones.
 
-### $QUIL token
+## $QUIL token
 
 :::info
 
@@ -33,7 +33,13 @@ Each generational milestone temporarily increases emissions before tapering off 
 
 Quilibrium’s model ensures that both early and later participants remain incentivized, fostering long-term decentralization.
 
-#### Current and Future Generations
+:::info
+
+To understand why this adaptive issuance model is important, please read [How does Quilibrium maintain decentralization?](/docs/discover/06-how-does-quilibrium-maintain-decentralization.md)
+
+:::
+
+### Current and Future Generations
 
 * **Generation 1 (Current):** Launched with \~10,000 iterations per \~10 seconds. As of 12.02.2025, iteration speed has increased to \~160,000, a 16x improvement.
 * **Generation 2 (100M iterations):** Estimated emissions reset in 2033.
