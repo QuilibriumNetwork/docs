@@ -1,0 +1,27 @@
+{
+  "id": "learn/communication/mixnet-routing",
+  "title": "Mixnet Routing",
+  "description": "",
+  "source": "@site/docs/learn/02-communication/mixnet-routing.md",
+  "sourceDirName": "learn/02-communication",
+  "slug": "/learn/communication/mixnet-routing",
+  "permalink": "/docs/learn/communication/mixnet-routing",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/learn/02-communication/mixnet-routing.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "learn",
+  "previous": {
+    "title": "E2EE",
+    "permalink": "/docs/learn/communication/e2ee"
+  },
+  "next": {
+    "title": "P2P Communication",
+    "permalink": "/docs/learn/communication/p2p-communication"
+  }
+}

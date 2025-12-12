@@ -1,0 +1,27 @@
+{
+  "id": "api/q-kms/api-reference/key-operations/untag-resource",
+  "title": "UntagResource",
+  "description": "Removes tags from a KMS key.",
+  "source": "@site/docs/api/04-q-kms/02-api-reference/01-key-operations/untag-resource.md",
+  "sourceDirName": "api/04-q-kms/02-api-reference/01-key-operations",
+  "slug": "/api/q-kms/api-reference/key-operations/untag-resource",
+  "permalink": "/docs/api/q-kms/api-reference/key-operations/untag-resource",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/04-q-kms/02-api-reference/01-key-operations/untag-resource.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "UntagResource",
+    "title": "UntagResource"
+  },
+  "sidebar": "api",
+  "previous": {
+    "title": "TagResource",
+    "permalink": "/docs/api/q-kms/api-reference/key-operations/tag-resource"
+  },
+  "next": {
+    "title": "UpdateAlias",
+    "permalink": "/docs/api/q-kms/api-reference/key-operations/update-alias"
+  }
+}

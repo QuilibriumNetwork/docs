@@ -1,0 +1,25 @@
+{
+  "id": "api/q-storage/user-manual/working-with-objects/working-with-metadata",
+  "title": "Working with Metadata",
+  "description": "There are two kinds of object metadata in QStorage: system-defined metadata and user-defined metadata. System-defined metadata includes metadata such as the object's creation date and size. User-defined metadata is metadata that you can choose to set at the time that you upload an object.",
+  "source": "@site/docs/api/03-q-storage/01-user-manual/03-working-with-objects/03-working-with-metadata.md",
+  "sourceDirName": "api/03-q-storage/01-user-manual/03-working-with-objects",
+  "slug": "/api/q-storage/user-manual/working-with-objects/working-with-metadata",
+  "permalink": "/docs/api/q-storage/user-manual/working-with-objects/working-with-metadata",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/03-q-storage/01-user-manual/03-working-with-objects/03-working-with-metadata.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "api",
+  "previous": {
+    "title": "Upload an Object",
+    "permalink": "/docs/api/q-storage/user-manual/working-with-objects/upload-an-object"
+  },
+  "next": {
+    "title": "Change Object Visibility",
+    "permalink": "/docs/api/q-storage/user-manual/working-with-objects/change-object-visibility"
+  }
+}

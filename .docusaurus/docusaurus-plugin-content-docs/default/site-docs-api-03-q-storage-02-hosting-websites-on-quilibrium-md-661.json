@@ -1,0 +1,27 @@
+{
+  "id": "api/q-storage/hosting-websites-on-quilibrium",
+  "title": "Hosting Websites on Quilibrium",
+  "description": "Quilibrium offers a flexible environment for hosting both static and dynamic websites, leveraging decentralized storage and computation primitives. Here's how it works:",
+  "source": "@site/docs/api/03-q-storage/02-hosting-websites-on-quilibrium.md",
+  "sourceDirName": "api/03-q-storage",
+  "slug": "/api/q-storage/hosting-websites-on-quilibrium",
+  "permalink": "/docs/api/q-storage/hosting-websites-on-quilibrium",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/03-q-storage/02-hosting-websites-on-quilibrium.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "api",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/api/q-storage/overview"
+  },
+  "next": {
+    "title": "QStorage User Manual",
+    "permalink": "/docs/category/qstorage-user-manual"
+  }
+}

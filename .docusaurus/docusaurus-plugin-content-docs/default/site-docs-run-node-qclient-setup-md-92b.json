@@ -1,0 +1,28 @@
+{
+  "id": "run-node/qclient/setup",
+  "title": "QClient Setup",
+  "description": "Installing the client",
+  "source": "@site/docs/run-node/qclient/setup.md",
+  "sourceDirName": "run-node/qclient",
+  "slug": "/run-node/qclient/setup",
+  "permalink": "/docs/run-node/qclient/setup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/run-node/qclient/setup.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "QClient Setup",
+    "sidebar_position": 2
+  },
+  "sidebar": "run",
+  "previous": {
+    "title": "QClient 101",
+    "permalink": "/docs/run-node/qclient/qclient-101"
+  },
+  "next": {
+    "title": "QClient Commands",
+    "permalink": "/docs/category/qclient-commands"
+  }
+}

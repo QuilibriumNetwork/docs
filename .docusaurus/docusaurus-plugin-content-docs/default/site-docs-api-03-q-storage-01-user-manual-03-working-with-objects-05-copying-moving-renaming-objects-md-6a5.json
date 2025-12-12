@@ -1,0 +1,25 @@
+{
+  "id": "api/q-storage/user-manual/working-with-objects/copying-moving-renaming-objects",
+  "title": "Copying, Moving, and Renaming Objects",
+  "description": "QStorage allows you to copy, move, and rename objects within and between buckets. This section explains how to perform these operations.",
+  "source": "@site/docs/api/03-q-storage/01-user-manual/03-working-with-objects/05-copying-moving-renaming-objects.md",
+  "sourceDirName": "api/03-q-storage/01-user-manual/03-working-with-objects",
+  "slug": "/api/q-storage/user-manual/working-with-objects/copying-moving-renaming-objects",
+  "permalink": "/docs/api/q-storage/user-manual/working-with-objects/copying-moving-renaming-objects",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/03-q-storage/01-user-manual/03-working-with-objects/05-copying-moving-renaming-objects.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {},
+  "sidebar": "api",
+  "previous": {
+    "title": "Listing a Bucket's Contents",
+    "permalink": "/docs/api/q-storage/user-manual/working-with-objects/list-bucket-contents"
+  },
+  "next": {
+    "title": "Downloading an Object",
+    "permalink": "/docs/api/q-storage/user-manual/working-with-objects/downloading-an-object"
+  }
+}

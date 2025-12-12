@@ -1,0 +1,27 @@
+{
+  "id": "run-node/qclient/node/node-service/environment-variables",
+  "title": "Environment Variables",
+  "description": "The service can read in environment variables on launch to change runtime settings.",
+  "source": "@site/docs/run-node/qclient/node/node-service/environment-variables.md",
+  "sourceDirName": "run-node/qclient/node/node-service",
+  "slug": "/run-node/qclient/node/node-service/environment-variables",
+  "permalink": "/docs/run-node/qclient/node/node-service/environment-variables",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/run-node/qclient/node/node-service/environment-variables.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "run",
+  "previous": {
+    "title": "Node Service Commands",
+    "permalink": "/docs/run-node/qclient/node/node-service/commands"
+  },
+  "next": {
+    "title": "Installing the Node Service",
+    "permalink": "/docs/run-node/qclient/node/node-service/installing-node-service"
+  }
+}

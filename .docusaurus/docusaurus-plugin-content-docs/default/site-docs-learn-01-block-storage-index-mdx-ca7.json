@@ -1,0 +1,20 @@
+{
+  "id": "learn/block-storage/index",
+  "title": "Foundations: Block Storage",
+  "description": "Block storage in Quilibrium is built as a Verifiable Delay Function (VDF) driven proof of storage, with query processing proof of validity.",
+  "source": "@site/docs/learn/01-block-storage/index.mdx",
+  "sourceDirName": "learn/01-block-storage",
+  "slug": "/learn/block-storage/",
+  "permalink": "/docs/learn/block-storage/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/learn/01-block-storage/index.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "learn",
+  "next": {
+    "title": "VDFs",
+    "permalink": "/docs/learn/block-storage/vdfs"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "build/applications/deploying-to-the-network",
+  "title": "Deploying to the Network",
+  "description": "After you have built and tested your application, you can deploy it to the network. Deployment requires publishing the RDF schema (if applicable), compiling the QCL code, and paying a fee for the deployment. The qclient CLI tool will do this all in one step for you.",
+  "source": "@site/docs/build/01-applications/deploying-to-the-network.md",
+  "sourceDirName": "build/01-applications",
+  "slug": "/build/applications/deploying-to-the-network",
+  "permalink": "/docs/build/applications/deploying-to-the-network",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/build/01-applications/deploying-to-the-network.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "build",
+  "previous": {
+    "title": "Compiling to OT Circuits",
+    "permalink": "/docs/build/applications/compiling-to-ot-circuits"
+  },
+  "next": {
+    "title": "Tokens",
+    "permalink": "/docs/category/tokens"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "api/q-kms/api-reference/key-operations/list-retirable-grants",
+  "title": "ListRetirableGrants",
+  "description": "Gets a list of all grants for which the specified principal is the retiring principal.",
+  "source": "@site/docs/api/04-q-kms/02-api-reference/01-key-operations/list-retirable-grants.md",
+  "sourceDirName": "api/04-q-kms/02-api-reference/01-key-operations",
+  "slug": "/api/q-kms/api-reference/key-operations/list-retirable-grants",
+  "permalink": "/docs/api/q-kms/api-reference/key-operations/list-retirable-grants",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/04-q-kms/02-api-reference/01-key-operations/list-retirable-grants.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "ListRetirableGrants",
+    "title": "ListRetirableGrants"
+  },
+  "sidebar": "api",
+  "previous": {
+    "title": "ListResourceTags",
+    "permalink": "/docs/api/q-kms/api-reference/key-operations/list-resource-tags"
+  },
+  "next": {
+    "title": "PutKeyPolicy",
+    "permalink": "/docs/api/q-kms/api-reference/key-operations/put-key-policy"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "api/q-storage/user-manual/access-control",
+  "title": "Access Control",
+  "description": "",
+  "source": "@site/docs/api/03-q-storage/01-user-manual/04-access-control.md",
+  "sourceDirName": "api/03-q-storage/01-user-manual",
+  "slug": "/api/q-storage/user-manual/access-control",
+  "permalink": "/docs/api/q-storage/user-manual/access-control",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/03-q-storage/01-user-manual/04-access-control.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {},
+  "sidebar": "api",
+  "previous": {
+    "title": "Using Object Tags",
+    "permalink": "/docs/api/q-storage/user-manual/working-with-objects/organizing-and-listing-objects/using-tags"
+  },
+  "next": {
+    "title": "Regions",
+    "permalink": "/docs/api/q-storage/user-manual/regions"
+  }
+}

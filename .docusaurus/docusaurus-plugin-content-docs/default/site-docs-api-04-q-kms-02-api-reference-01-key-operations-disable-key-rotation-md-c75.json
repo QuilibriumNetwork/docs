@@ -1,0 +1,27 @@
+{
+  "id": "api/q-kms/api-reference/key-operations/disable-key-rotation",
+  "title": "DisableKeyRotation",
+  "description": "Disables automatic rotation of the key material for a KMS key.",
+  "source": "@site/docs/api/04-q-kms/02-api-reference/01-key-operations/disable-key-rotation.md",
+  "sourceDirName": "api/04-q-kms/02-api-reference/01-key-operations",
+  "slug": "/api/q-kms/api-reference/key-operations/disable-key-rotation",
+  "permalink": "/docs/api/q-kms/api-reference/key-operations/disable-key-rotation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/04-q-kms/02-api-reference/01-key-operations/disable-key-rotation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "DisableKeyRotation",
+    "title": "DisableKeyRotation"
+  },
+  "sidebar": "api",
+  "previous": {
+    "title": "DescribeKey",
+    "permalink": "/docs/api/q-kms/api-reference/key-operations/describe-key"
+  },
+  "next": {
+    "title": "DisableKey",
+    "permalink": "/docs/api/q-kms/api-reference/key-operations/disable-key"
+  }
+}

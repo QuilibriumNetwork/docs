@@ -1,0 +1,23 @@
+{
+  "id": "run-node/quick-start",
+  "title": "Quick Start",
+  "description": "System Requirements",
+  "source": "@site/docs/run-node/quick-start.md",
+  "sourceDirName": "run-node",
+  "slug": "/run-node/quick-start",
+  "permalink": "/docs/run-node/quick-start",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/run-node/quick-start.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "run",
+  "next": {
+    "title": "System Requirements",
+    "permalink": "/docs/run-node/system-requirements"
+  }
+}

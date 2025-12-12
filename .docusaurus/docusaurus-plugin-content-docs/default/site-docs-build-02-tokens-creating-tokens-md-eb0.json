@@ -1,0 +1,27 @@
+{
+  "id": "build/tokens/creating-tokens",
+  "title": "Creating Tokens",
+  "description": "Creating tokens on Quilibrium is incredibly easy, using the pre-defined token intrinsic, which allows for significantly more compact proofs of execution and handles every common use case of tokens.",
+  "source": "@site/docs/build/02-tokens/creating-tokens.md",
+  "sourceDirName": "build/02-tokens",
+  "slug": "/build/tokens/creating-tokens",
+  "permalink": "/docs/build/tokens/creating-tokens",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/build/02-tokens/creating-tokens.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "build",
+  "previous": {
+    "title": "Tokens",
+    "permalink": "/docs/category/tokens"
+  },
+  "next": {
+    "title": "Q Service APIs",
+    "permalink": "/docs/build/q-service-apis"
+  }
+}

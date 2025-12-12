@@ -1,0 +1,27 @@
+{
+  "id": "api/q-kms/api-reference/key-operations/tag-resource",
+  "title": "TagResource",
+  "description": "Adds or edits tags on a KMS key.",
+  "source": "@site/docs/api/04-q-kms/02-api-reference/01-key-operations/tag-resource.md",
+  "sourceDirName": "api/04-q-kms/02-api-reference/01-key-operations",
+  "slug": "/api/q-kms/api-reference/key-operations/tag-resource",
+  "permalink": "/docs/api/q-kms/api-reference/key-operations/tag-resource",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/04-q-kms/02-api-reference/01-key-operations/tag-resource.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "TagResource",
+    "title": "TagResource"
+  },
+  "sidebar": "api",
+  "previous": {
+    "title": "Sign",
+    "permalink": "/docs/api/q-kms/api-reference/key-operations/sign"
+  },
+  "next": {
+    "title": "UntagResource",
+    "permalink": "/docs/api/q-kms/api-reference/key-operations/untag-resource"
+  }
+}

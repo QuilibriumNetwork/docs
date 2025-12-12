@@ -1,0 +1,24 @@
+{
+  "id": "api/q-storage/api-reference/data-types/analytics-filter",
+  "title": "AnalyticsFilter",
+  "description": "Container for the filter used to describe a set of objects for analyses. A filter must have exactly one prefix, one tag, or one conjunction (And).",
+  "source": "@site/docs/api/03-q-storage/02-api-reference/09-data-types/analytics-filter.md",
+  "sourceDirName": "api/03-q-storage/02-api-reference/09-data-types",
+  "slug": "/api/q-storage/api-reference/data-types/analytics-filter",
+  "permalink": "/docs/api/q-storage/api-reference/data-types/analytics-filter",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/03-q-storage/02-api-reference/09-data-types/analytics-filter.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "api",
+  "previous": {
+    "title": "AbortIncompleteMultipartUpload",
+    "permalink": "/docs/api/q-storage/api-reference/data-types/abort-incomplete-multipart-upload"
+  },
+  "next": {
+    "title": "BucketLoggingStatus",
+    "permalink": "/docs/api/q-storage/api-reference/data-types/bucket-logging-status"
+  }
+}

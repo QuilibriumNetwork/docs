@@ -1,0 +1,24 @@
+{
+  "id": "learn/communication/index",
+  "title": "Foundations: Communication",
+  "description": "The network's communication between nodes is the fundamental building block on which the rest of the network is built upon.",
+  "source": "@site/docs/learn/02-communication/index.mdx",
+  "sourceDirName": "learn/02-communication",
+  "slug": "/learn/communication/",
+  "permalink": "/docs/learn/communication/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/learn/02-communication/index.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "learn",
+  "previous": {
+    "title": "Bloom Clock",
+    "permalink": "/docs/learn/block-storage/bloom-clock"
+  },
+  "next": {
+    "title": "Addressing",
+    "permalink": "/docs/learn/communication/addressing"
+  }
+}

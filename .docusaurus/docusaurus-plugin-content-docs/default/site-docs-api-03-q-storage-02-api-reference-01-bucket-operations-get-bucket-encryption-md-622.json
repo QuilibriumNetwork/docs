@@ -1,0 +1,27 @@
+{
+  "id": "api/q-storage/api-reference/bucket-operations/get-bucket-encryption",
+  "title": "GetBucketEncryption",
+  "description": "Returns the default encryption configuration for a bucket.",
+  "source": "@site/docs/api/03-q-storage/02-api-reference/01-bucket-operations/get-bucket-encryption.md",
+  "sourceDirName": "api/03-q-storage/02-api-reference/01-bucket-operations",
+  "slug": "/api/q-storage/api-reference/bucket-operations/get-bucket-encryption",
+  "permalink": "/docs/api/q-storage/api-reference/bucket-operations/get-bucket-encryption",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/03-q-storage/02-api-reference/01-bucket-operations/get-bucket-encryption.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "GetBucketEncryption",
+    "title": "GetBucketEncryption"
+  },
+  "sidebar": "api",
+  "previous": {
+    "title": "GetBucketCors",
+    "permalink": "/docs/api/q-storage/api-reference/bucket-operations/get-bucket-cors"
+  },
+  "next": {
+    "title": "GetBucketLifecycleConfiguration",
+    "permalink": "/docs/api/q-storage/api-reference/bucket-operations/get-bucket-lifecycle-configuration"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "run-node/linux_configuration",
+  "title": "Linux Configuration",
+  "description": "Running the node as systemd service",
+  "source": "@site/docs/run-node/linux_configuration.md",
+  "sourceDirName": "run-node",
+  "slug": "/run-node/linux_configuration",
+  "permalink": "/docs/run-node/linux_configuration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/run-node/linux_configuration.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "run",
+  "previous": {
+    "title": "Advanced Node Management",
+    "permalink": "/docs/run-node/advanced-node-management"
+  },
+  "next": {
+    "title": "Account Aliases",
+    "permalink": "/docs/run-node/account-aliases"
+  }
+}

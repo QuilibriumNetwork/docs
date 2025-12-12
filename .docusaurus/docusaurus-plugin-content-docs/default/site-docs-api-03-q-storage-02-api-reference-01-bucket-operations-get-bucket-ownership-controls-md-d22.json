@@ -1,0 +1,27 @@
+{
+  "id": "api/q-storage/api-reference/bucket-operations/get-bucket-ownership-controls",
+  "title": "GetBucketOwnershipControls",
+  "description": "Returns the ownership controls for a bucket.",
+  "source": "@site/docs/api/03-q-storage/02-api-reference/01-bucket-operations/get-bucket-ownership-controls.md",
+  "sourceDirName": "api/03-q-storage/02-api-reference/01-bucket-operations",
+  "slug": "/api/q-storage/api-reference/bucket-operations/get-bucket-ownership-controls",
+  "permalink": "/docs/api/q-storage/api-reference/bucket-operations/get-bucket-ownership-controls",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/03-q-storage/02-api-reference/01-bucket-operations/get-bucket-ownership-controls.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "GetBucketOwnershipControls",
+    "title": "GetBucketOwnershipControls"
+  },
+  "sidebar": "api",
+  "previous": {
+    "title": "GetBucketMetadataTableConfiguration",
+    "permalink": "/docs/api/q-storage/api-reference/bucket-operations/get-bucket-metadata-table-configuration"
+  },
+  "next": {
+    "title": "GetBucketPolicyStatus",
+    "permalink": "/docs/api/q-storage/api-reference/bucket-operations/get-bucket-policy-status"
+  }
+}

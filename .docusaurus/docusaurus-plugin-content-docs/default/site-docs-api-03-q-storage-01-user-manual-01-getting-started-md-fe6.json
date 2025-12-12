@@ -1,0 +1,25 @@
+{
+  "id": "api/q-storage/user-manual/getting-started",
+  "title": "Getting Started",
+  "description": "Being that QStorage is a object store, it utilizes standard S3 terminology adapted to fit the Q Network:",
+  "source": "@site/docs/api/03-q-storage/01-user-manual/01-getting-started.md",
+  "sourceDirName": "api/03-q-storage/01-user-manual",
+  "slug": "/api/q-storage/user-manual/getting-started",
+  "permalink": "/docs/api/q-storage/user-manual/getting-started",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/03-q-storage/01-user-manual/01-getting-started.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "api",
+  "previous": {
+    "title": "QStorage User Manual",
+    "permalink": "/docs/category/qstorage-user-manual"
+  },
+  "next": {
+    "title": "Setting Up Credentials",
+    "permalink": "/docs/api/q-storage/user-manual/credentials"
+  }
+}

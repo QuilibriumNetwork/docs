@@ -1,0 +1,25 @@
+{
+  "id": "discover/core-technologies-in-quilibrium/SLRP",
+  "title": "Shuffled Lattice Routing Protocol (SLRP)",
+  "description": "Overview",
+  "source": "@site/docs/discover/05-core-technologies-in-quilibrium/06-SLRP.md",
+  "sourceDirName": "discover/05-core-technologies-in-quilibrium",
+  "slug": "/discover/core-technologies-in-quilibrium/SLRP",
+  "permalink": "/docs/discover/core-technologies-in-quilibrium/SLRP",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/discover/05-core-technologies-in-quilibrium/06-SLRP.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {},
+  "sidebar": "discover",
+  "previous": {
+    "title": "Triple-Ratchet",
+    "permalink": "/docs/discover/core-technologies-in-quilibrium/Triple-Ratchet"
+  },
+  "next": {
+    "title": "Random Permutation Mixnet (RPM)",
+    "permalink": "/docs/discover/core-technologies-in-quilibrium/RPM"
+  }
+}

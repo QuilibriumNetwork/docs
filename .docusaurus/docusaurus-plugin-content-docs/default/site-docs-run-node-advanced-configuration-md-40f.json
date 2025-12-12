@@ -1,0 +1,27 @@
+{
+  "id": "run-node/advanced-configuration",
+  "title": "Advanced Configuration",
+  "description": "Configuration is managed via the config.yml file, located in the config directory either specified at runtime or defaulting to the .config/ folder in the node project.",
+  "source": "@site/docs/run-node/advanced-configuration.md",
+  "sourceDirName": "run-node",
+  "slug": "/run-node/advanced-configuration",
+  "permalink": "/docs/run-node/advanced-configuration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/run-node/advanced-configuration.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "run",
+  "previous": {
+    "title": "2.1 Upgrade Guide",
+    "permalink": "/docs/run-node/upgrade-2.1"
+  },
+  "next": {
+    "title": "Using QClient",
+    "permalink": "/docs/category/using-qclient"
+  }
+}

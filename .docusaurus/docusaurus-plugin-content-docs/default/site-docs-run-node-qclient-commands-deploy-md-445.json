@@ -1,0 +1,27 @@
+{
+  "id": "run-node/qclient/commands/deploy",
+  "title": "Deploy Commands",
+  "description": "The deploy commands enable deployment of various resources to the Quilibrium network, including applications, tokens, files, and hypergraph schemas.",
+  "source": "@site/docs/run-node/qclient/commands/deploy.md",
+  "sourceDirName": "run-node/qclient/commands",
+  "slug": "/run-node/qclient/commands/deploy",
+  "permalink": "/docs/run-node/qclient/commands/deploy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/run-node/qclient/commands/deploy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "run",
+  "previous": {
+    "title": "QClient Commands",
+    "permalink": "/docs/category/qclient-commands"
+  },
+  "next": {
+    "title": "Hypergraph Commands",
+    "permalink": "/docs/run-node/qclient/commands/hypergraph"
+  }
+}

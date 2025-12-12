@@ -1,0 +1,27 @@
+{
+  "id": "api/q-storage/api-reference/bucket-operations/get-bucket-metadata-table-configuration",
+  "title": "GetBucketMetadataTableConfiguration",
+  "description": "Returns the metadata table configuration for a bucket. This operation requires the s3:GetBucketMetadataTableConfiguration permission.",
+  "source": "@site/docs/api/03-q-storage/02-api-reference/01-bucket-operations/get-bucket-metadata-table-configuration.md",
+  "sourceDirName": "api/03-q-storage/02-api-reference/01-bucket-operations",
+  "slug": "/api/q-storage/api-reference/bucket-operations/get-bucket-metadata-table-configuration",
+  "permalink": "/docs/api/q-storage/api-reference/bucket-operations/get-bucket-metadata-table-configuration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/03-q-storage/02-api-reference/01-bucket-operations/get-bucket-metadata-table-configuration.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "GetBucketMetadataTableConfiguration",
+    "label": "GetBucketMetadataTableConfiguration"
+  },
+  "sidebar": "api",
+  "previous": {
+    "title": "GetBucketLogging",
+    "permalink": "/docs/api/q-storage/api-reference/bucket-operations/get-bucket-logging"
+  },
+  "next": {
+    "title": "GetBucketOwnershipControls",
+    "permalink": "/docs/api/q-storage/api-reference/bucket-operations/get-bucket-ownership-controls"
+  }
+}

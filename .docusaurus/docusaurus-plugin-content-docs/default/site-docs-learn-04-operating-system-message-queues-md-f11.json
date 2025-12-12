@@ -1,0 +1,27 @@
+{
+  "id": "learn/operating-system/message-queues",
+  "title": "Message Queues",
+  "description": "",
+  "source": "@site/docs/learn/04-operating-system/message-queues.md",
+  "sourceDirName": "learn/04-operating-system",
+  "slug": "/learn/operating-system/message-queues",
+  "permalink": "/docs/learn/operating-system/message-queues",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/learn/04-operating-system/message-queues.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "learn",
+  "previous": {
+    "title": "IPC",
+    "permalink": "/docs/learn/operating-system/ipc"
+  },
+  "next": {
+    "title": "Key Management",
+    "permalink": "/docs/learn/operating-system/key-management"
+  }
+}

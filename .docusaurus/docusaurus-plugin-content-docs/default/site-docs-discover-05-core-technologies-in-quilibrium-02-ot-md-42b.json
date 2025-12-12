@@ -1,0 +1,25 @@
+{
+  "id": "discover/core-technologies-in-quilibrium/OT",
+  "title": "Oblivious Transfer (OT)",
+  "description": "Quilibrium utilizes Oblivious Transfer, a technique for providing garbled circuits that enable computation to confidentially and securely occur between two or more parties, as well as provide a substrate for proof creation and verification that the circuit's execution and outputs are correct for the application.",
+  "source": "@site/docs/discover/05-core-technologies-in-quilibrium/02-OT.md",
+  "sourceDirName": "discover/05-core-technologies-in-quilibrium",
+  "slug": "/discover/core-technologies-in-quilibrium/OT",
+  "permalink": "/docs/discover/core-technologies-in-quilibrium/OT",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/discover/05-core-technologies-in-quilibrium/02-OT.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "discover",
+  "previous": {
+    "title": "Verifiable Delay Functions (VDFs)",
+    "permalink": "/docs/discover/core-technologies-in-quilibrium/VDFs"
+  },
+  "next": {
+    "title": "Oblivious Hypergraph (OHG)",
+    "permalink": "/docs/discover/core-technologies-in-quilibrium/OHG"
+  }
+}

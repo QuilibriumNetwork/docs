@@ -1,0 +1,24 @@
+{
+  "id": "run-node/qclient/node/auto-update",
+  "title": "Auto-Updating",
+  "description": "QClient has a built in command to create an auto-update scheduled task.",
+  "source": "@site/docs/run-node/qclient/node/auto-update.md",
+  "sourceDirName": "run-node/qclient/node",
+  "slug": "/run-node/qclient/node/auto-update",
+  "permalink": "/docs/run-node/qclient/node/auto-update",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/run-node/qclient/node/auto-update.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "run",
+  "previous": {
+    "title": "Multiple Keysets",
+    "permalink": "/docs/run-node/qclient/node/key-management/multiple-keysets"
+  },
+  "next": {
+    "title": "Cleaning Your Node Server",
+    "permalink": "/docs/run-node/qclient/node/clean"
+  }
+}

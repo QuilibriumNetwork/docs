@@ -1,0 +1,27 @@
+{
+  "id": "api/q-storage/api-reference/data-types/lifecycle-expiration",
+  "title": "LifecycleExpiration",
+  "description": "Specifies the expiration for the lifecycle of the object in the form of date, days and, whether the object has a delete marker.",
+  "source": "@site/docs/api/03-q-storage/02-api-reference/09-data-types/lifecycle-expiration.md",
+  "sourceDirName": "api/03-q-storage/02-api-reference/09-data-types",
+  "slug": "/api/q-storage/api-reference/data-types/lifecycle-expiration",
+  "permalink": "/docs/api/q-storage/api-reference/data-types/lifecycle-expiration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/03-q-storage/02-api-reference/09-data-types/lifecycle-expiration.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "LifecycleExpiration",
+    "title": "LifecycleExpiration"
+  },
+  "sidebar": "api",
+  "previous": {
+    "title": "Initiator",
+    "permalink": "/docs/api/q-storage/api-reference/data-types/initiator"
+  },
+  "next": {
+    "title": "LifecycleRuleAndOperator",
+    "permalink": "/docs/api/q-storage/api-reference/data-types/lifecycle-rule-and-operator"
+  }
+}

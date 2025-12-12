@@ -1,0 +1,27 @@
+{
+  "id": "api/q-storage/api-reference/data-types/lifecycle-rule-and-operator",
+  "title": "LifecycleRuleAndOperator",
+  "description": "This is used in a Lifecycle Rule Filter to apply a logical AND to two or more predicates. The Lifecycle Rule will apply to any object matching all of the predicates configured inside the And operator.",
+  "source": "@site/docs/api/03-q-storage/02-api-reference/09-data-types/lifecycle-rule-and-operator.md",
+  "sourceDirName": "api/03-q-storage/02-api-reference/09-data-types",
+  "slug": "/api/q-storage/api-reference/data-types/lifecycle-rule-and-operator",
+  "permalink": "/docs/api/q-storage/api-reference/data-types/lifecycle-rule-and-operator",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/03-q-storage/02-api-reference/09-data-types/lifecycle-rule-and-operator.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "LifecycleRuleAndOperator",
+    "title": "LifecycleRuleAndOperator"
+  },
+  "sidebar": "api",
+  "previous": {
+    "title": "LifecycleExpiration",
+    "permalink": "/docs/api/q-storage/api-reference/data-types/lifecycle-expiration"
+  },
+  "next": {
+    "title": "LifecycleRuleFilter",
+    "permalink": "/docs/api/q-storage/api-reference/data-types/lifecycle-rule-filter"
+  }
+}
