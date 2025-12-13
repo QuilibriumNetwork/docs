@@ -1,0 +1,27 @@
+{
+  "id": "protocol/consensus",
+  "title": "Consensus Mechanism",
+  "description": "Quilibrium implements a novel consensus mechanism called Proof of Meaningful Work that ensures network security while requiring participants to contribute valuable computational resources.",
+  "source": "@site/docs/protocol/consensus.md",
+  "sourceDirName": "protocol",
+  "slug": "/protocol/consensus",
+  "permalink": "/docs/protocol/consensus",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/protocol/consensus.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "protocol",
+  "previous": {
+    "title": "Protocol Overview",
+    "permalink": "/docs/protocol/overview"
+  },
+  "next": {
+    "title": "Data Structures",
+    "permalink": "/docs/protocol/data-structures"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "run-node/qclient/commands/compute",
+  "title": "Compute Commands",
+  "description": "The compute commands enable execution of distributed computations on the Quilibrium network, supporting multi-party computation and finalizing results to the hypergraph.",
+  "source": "@site/docs/run-node/qclient/commands/compute.md",
+  "sourceDirName": "run-node/qclient/commands",
+  "slug": "/run-node/qclient/commands/compute",
+  "permalink": "/docs/run-node/qclient/commands/compute",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/run-node/qclient/commands/compute.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "run",
+  "previous": {
+    "title": "Hypergraph Commands",
+    "permalink": "/docs/run-node/qclient/commands/hypergraph"
+  },
+  "next": {
+    "title": "Key Commands",
+    "permalink": "/docs/run-node/qclient/commands/key"
+  }
+}

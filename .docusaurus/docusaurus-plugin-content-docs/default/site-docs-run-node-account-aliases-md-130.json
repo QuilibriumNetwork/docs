@@ -1,0 +1,24 @@
+{
+  "id": "run-node/account-aliases",
+  "title": "Account Aliases",
+  "description": "Account aliases are a local-only method of saving frequently used Account addresses.",
+  "source": "@site/docs/run-node/account-aliases.md",
+  "sourceDirName": "run-node",
+  "slug": "/run-node/account-aliases",
+  "permalink": "/docs/run-node/account-aliases",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/run-node/account-aliases.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "run",
+  "previous": {
+    "title": "Linux Configuration",
+    "permalink": "/docs/run-node/linux_configuration"
+  },
+  "next": {
+    "title": "Shard Enrollment Process",
+    "permalink": "/docs/run-node/shard-enrollment-process"
+  }
+}

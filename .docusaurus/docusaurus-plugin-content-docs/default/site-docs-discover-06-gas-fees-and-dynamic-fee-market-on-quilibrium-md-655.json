@@ -1,0 +1,25 @@
+{
+  "id": "discover/gas-fees-and-dynamic-fee-market-on-quilibrium",
+  "title": "Gas Fees and Dynamic Fee Market on Quilibrium",
+  "description": "Quilibrium’s gas fee system is built around a dynamic fee market that adapts to network usage. Fees are calculated based on three key factors:",
+  "source": "@site/docs/discover/06-gas-fees-and-dynamic-fee-market-on-quilibrium.md",
+  "sourceDirName": "discover",
+  "slug": "/discover/gas-fees-and-dynamic-fee-market-on-quilibrium",
+  "permalink": "/docs/discover/gas-fees-and-dynamic-fee-market-on-quilibrium",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/discover/06-gas-fees-and-dynamic-fee-market-on-quilibrium.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {},
+  "sidebar": "discover",
+  "previous": {
+    "title": "Core Technologies in Quilibrium",
+    "permalink": "/docs/discover/core-technologies-in-quilibrium"
+  },
+  "next": {
+    "title": "How does Quilibrium Maintain Decentralization?",
+    "permalink": "/docs/discover/how-does-quilibrium-maintain-decentralization"
+  }
+}

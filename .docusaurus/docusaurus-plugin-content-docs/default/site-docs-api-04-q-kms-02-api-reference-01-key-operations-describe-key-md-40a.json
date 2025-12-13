@@ -1,0 +1,27 @@
+{
+  "id": "api/q-kms/api-reference/key-operations/describe-key",
+  "title": "DescribeKey",
+  "description": "Gets detailed information about a KMS key.",
+  "source": "@site/docs/api/04-q-kms/02-api-reference/01-key-operations/describe-key.md",
+  "sourceDirName": "api/04-q-kms/02-api-reference/01-key-operations",
+  "slug": "/api/q-kms/api-reference/key-operations/describe-key",
+  "permalink": "/docs/api/q-kms/api-reference/key-operations/describe-key",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/04-q-kms/02-api-reference/01-key-operations/describe-key.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "DescribeKey",
+    "title": "DescribeKey"
+  },
+  "sidebar": "api",
+  "previous": {
+    "title": "DeriveSharedSecret",
+    "permalink": "/docs/api/q-kms/api-reference/key-operations/derive-shared-secret"
+  },
+  "next": {
+    "title": "DisableKeyRotation",
+    "permalink": "/docs/api/q-kms/api-reference/key-operations/disable-key-rotation"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "api/q-storage/user-manual/working-with-buckets/what-is-a-bucket",
+  "title": "What is a Bucket?",
+  "description": "A bucket is a repository for your data to live in.  You can think of it as a \"folder\" on your computer in which you find all your files in.",
+  "source": "@site/docs/api/03-q-storage/01-user-manual/02-working-with-buckets/00-what-is-a-bucket.md",
+  "sourceDirName": "api/03-q-storage/01-user-manual/02-working-with-buckets",
+  "slug": "/api/q-storage/user-manual/working-with-buckets/what-is-a-bucket",
+  "permalink": "/docs/api/q-storage/user-manual/working-with-buckets/what-is-a-bucket",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/03-q-storage/01-user-manual/02-working-with-buckets/00-what-is-a-bucket.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "api",
+  "previous": {
+    "title": "Working With Buckets",
+    "permalink": "/docs/category/working-with-buckets"
+  },
+  "next": {
+    "title": "Bucket Names",
+    "permalink": "/docs/api/q-storage/user-manual/working-with-buckets/bucket-names"
+  }
+}

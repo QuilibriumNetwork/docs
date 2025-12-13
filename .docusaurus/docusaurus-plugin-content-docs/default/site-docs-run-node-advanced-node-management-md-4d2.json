@@ -1,0 +1,27 @@
+{
+  "id": "run-node/advanced-node-management",
+  "title": "Advanced Node Management",
+  "description": "Running a Node in a Cluster",
+  "source": "@site/docs/run-node/advanced-node-management.md",
+  "sourceDirName": "run-node",
+  "slug": "/run-node/advanced-node-management",
+  "permalink": "/docs/run-node/advanced-node-management",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/run-node/advanced-node-management.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "run",
+  "previous": {
+    "title": "RPC",
+    "permalink": "/docs/run-node/RPC"
+  },
+  "next": {
+    "title": "Linux Configuration",
+    "permalink": "/docs/run-node/linux_configuration"
+  }
+}

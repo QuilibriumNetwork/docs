@@ -1,0 +1,27 @@
+{
+  "id": "api/q-storage/api-reference/data-types/ownership-controls",
+  "title": "OwnershipControls",
+  "description": "Container for ownership controls.",
+  "source": "@site/docs/api/03-q-storage/02-api-reference/09-data-types/ownership-controls.md",
+  "sourceDirName": "api/03-q-storage/02-api-reference/09-data-types",
+  "slug": "/api/q-storage/api-reference/data-types/ownership-controls",
+  "permalink": "/docs/api/q-storage/api-reference/data-types/ownership-controls",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/03-q-storage/02-api-reference/09-data-types/ownership-controls.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "OwnershipControls",
+    "title": "OwnershipControls"
+  },
+  "sidebar": "api",
+  "previous": {
+    "title": "OwnershipControlsRule",
+    "permalink": "/docs/api/q-storage/api-reference/data-types/ownership-controls-rule"
+  },
+  "next": {
+    "title": "Part",
+    "permalink": "/docs/api/q-storage/api-reference/data-types/part"
+  }
+}

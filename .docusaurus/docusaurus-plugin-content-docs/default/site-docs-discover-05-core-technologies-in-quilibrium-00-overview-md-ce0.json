@@ -1,0 +1,29 @@
+{
+  "id": "discover/core-technologies-in-quilibrium/Overview",
+  "title": "Overview",
+  "description": "Quilibrium's architecture is built on a foundation of advanced cryptographic and distributed systems technologies. These core components work in concert to create a secure, private, and efficient decentralized network.",
+  "source": "@site/docs/discover/05-core-technologies-in-quilibrium/00-Overview.md",
+  "sourceDirName": "discover/05-core-technologies-in-quilibrium",
+  "slug": "/discover/core-technologies-in-quilibrium/Overview",
+  "permalink": "/docs/discover/core-technologies-in-quilibrium/Overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/discover/05-core-technologies-in-quilibrium/00-Overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Overview",
+    "description": "Quilibrium's architecture is built on a foundation of advanced cryptographic and distributed systems technologies. These core components work in concert to create a secure, private, and efficient decentralized network.",
+    "sidebar_position": 1
+  },
+  "sidebar": "discover",
+  "previous": {
+    "title": "Quilibrium Tokenomics",
+    "permalink": "/docs/discover/quilibrium-tokenomics"
+  },
+  "next": {
+    "title": "Verifiable Delay Functions (VDFs)",
+    "permalink": "/docs/discover/core-technologies-in-quilibrium/VDFs"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "learn/oblivious-hypergraph/index",
+  "title": "Oblivious Hypergraph",
+  "description": "With a network formally constructed that manages arbitrary block storage, we now incorporate the messaging structure that enables arbitrary queryability, expressing this block storage as the data settlement layer of a hypergraph.",
+  "source": "@site/docs/learn/03-oblivious-hypergraph/index.mdx",
+  "sourceDirName": "learn/03-oblivious-hypergraph",
+  "slug": "/learn/oblivious-hypergraph/",
+  "permalink": "/docs/learn/oblivious-hypergraph/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/learn/03-oblivious-hypergraph/index.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "learn",
+  "previous": {
+    "title": "P2P Communication",
+    "permalink": "/docs/learn/communication/p2p-communication"
+  },
+  "next": {
+    "title": "Hypergraph Construction",
+    "permalink": "/docs/learn/oblivious-hypergraph/hypergraph-construction"
+  }
+}

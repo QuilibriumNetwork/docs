@@ -1,0 +1,24 @@
+{
+  "id": "run-node/qclient/commands/qclient-config",
+  "title": "QClient Config Commands",
+  "description": "This is a list of configuration operations for qclient.",
+  "source": "@site/docs/run-node/qclient/commands/qclient-config.md",
+  "sourceDirName": "run-node/qclient/commands",
+  "slug": "/run-node/qclient/commands/qclient-config",
+  "permalink": "/docs/run-node/qclient/commands/qclient-config",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/run-node/qclient/commands/qclient-config.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "run",
+  "previous": {
+    "title": "Node Commands",
+    "permalink": "/docs/run-node/qclient/commands/node"
+  },
+  "next": {
+    "title": "General QClient Commands",
+    "permalink": "/docs/run-node/qclient/commands/qclient"
+  }
+}

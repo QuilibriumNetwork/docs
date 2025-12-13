@@ -1,0 +1,24 @@
+{
+  "id": "run-node/qclient/checksum",
+  "title": "QClient Checksums",
+  "description": "If you want to get the checksum for your current QClient binary, you can run:",
+  "source": "@site/docs/run-node/qclient/checksum.md",
+  "sourceDirName": "run-node/qclient",
+  "slug": "/run-node/qclient/checksum",
+  "permalink": "/docs/run-node/qclient/checksum",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/run-node/qclient/checksum.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "run",
+  "previous": {
+    "title": "Run a Node via Service",
+    "permalink": "/docs/run-node/qclient/node/run-node-via-node-service"
+  },
+  "next": {
+    "title": "Importing Keys",
+    "permalink": "/docs/run-node/qclient/managing-configs"
+  }
+}

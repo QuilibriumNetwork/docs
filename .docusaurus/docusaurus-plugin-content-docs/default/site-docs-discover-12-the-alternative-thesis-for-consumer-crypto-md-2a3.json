@@ -1,0 +1,25 @@
+{
+  "id": "discover/the-alternative-thesis-for-consumer-crypto",
+  "title": "The Alternative Thesis for Consumer Crypto",
+  "description": "This article is a VERY SIMPLIFIED summary of a longer talk by Cassandra Heart (Quilibrium founder). Watch the video below to dive deeper into the topic.",
+  "source": "@site/docs/discover/12-the-alternative-thesis-for-consumer-crypto.md",
+  "sourceDirName": "discover",
+  "slug": "/discover/the-alternative-thesis-for-consumer-crypto",
+  "permalink": "/docs/discover/the-alternative-thesis-for-consumer-crypto",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/discover/12-the-alternative-thesis-for-consumer-crypto.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {},
+  "sidebar": "discover",
+  "previous": {
+    "title": "Security Audits of Quilibrium’s Cryptographic Protocols",
+    "permalink": "/docs/discover/security-audits-of-quilibriums-cryptographic-protocols"
+  },
+  "next": {
+    "title": "The Illusion of Decentralization in Crypto, and Quilibrium’s Radical Alternative.",
+    "permalink": "/docs/discover/the-illusion-of-decentralization-in-crypto-and-quilibriums-radical-alternative."
+  }
+}

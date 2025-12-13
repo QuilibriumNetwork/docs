@@ -1,0 +1,27 @@
+{
+  "id": "api/q-kms/api-reference/key-operations/replicate-key",
+  "title": "ReplicateKey",
+  "description": "Creates a replica of a multi-Region KMS key in a different Region.",
+  "source": "@site/docs/api/04-q-kms/02-api-reference/01-key-operations/replicate-key.md",
+  "sourceDirName": "api/04-q-kms/02-api-reference/01-key-operations",
+  "slug": "/api/q-kms/api-reference/key-operations/replicate-key",
+  "permalink": "/docs/api/q-kms/api-reference/key-operations/replicate-key",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/04-q-kms/02-api-reference/01-key-operations/replicate-key.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "ReplicateKey",
+    "title": "ReplicateKey"
+  },
+  "sidebar": "api",
+  "previous": {
+    "title": "ReEncrypt",
+    "permalink": "/docs/api/q-kms/api-reference/key-operations/re-encrypt"
+  },
+  "next": {
+    "title": "RetireGrant",
+    "permalink": "/docs/api/q-kms/api-reference/key-operations/retire-grant"
+  }
+}

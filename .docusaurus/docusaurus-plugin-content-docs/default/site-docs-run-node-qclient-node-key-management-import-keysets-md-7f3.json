@@ -1,0 +1,24 @@
+{
+  "id": "run-node/qclient/node/key-management/import-keysets",
+  "title": "Import Keysets",
+  "description": "If you wish to import existing keysets, one or multiple, this command copies the keyset into the expected QClient folder structure.",
+  "source": "@site/docs/run-node/qclient/node/key-management/import-keysets.md",
+  "sourceDirName": "run-node/qclient/node/key-management",
+  "slug": "/run-node/qclient/node/key-management/import-keysets",
+  "permalink": "/docs/run-node/qclient/node/key-management/import-keysets",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/run-node/qclient/node/key-management/import-keysets.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "run",
+  "previous": {
+    "title": "Create A New Keyset",
+    "permalink": "/docs/run-node/qclient/node/key-management/create-new-keyset"
+  },
+  "next": {
+    "title": "Multiple Keysets",
+    "permalink": "/docs/run-node/qclient/node/key-management/multiple-keysets"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "discover/quilibrium-tokenomics",
+  "title": "Quilibrium Tokenomics",
+  "description": "Quilibrium employs a generational token issuance model that dynamically adjusts based on network-wide computational progress, ensuring long-term sustainability and decentralization. Instead of a fixed emission schedule, new $QUIL emissions are triggered when the network surpasses predefined computational milestones.",
+  "source": "@site/docs/discover/04-quilibrium-tokenomics.md",
+  "sourceDirName": "discover",
+  "slug": "/discover/quilibrium-tokenomics",
+  "permalink": "/docs/discover/quilibrium-tokenomics",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/discover/04-quilibrium-tokenomics.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {},
+  "sidebar": "discover",
+  "previous": {
+    "title": "Q Story and Roadmap",
+    "permalink": "/docs/discover/q-story"
+  },
+  "next": {
+    "title": "Core Technologies in Quilibrium",
+    "permalink": "/docs/discover/core-technologies-in-quilibrium"
+  }
+}

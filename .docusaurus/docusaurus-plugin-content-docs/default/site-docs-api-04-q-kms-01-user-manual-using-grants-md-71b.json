@@ -1,0 +1,27 @@
+{
+  "id": "api/q-kms/user-manual/using-grants",
+  "title": "UsingGrants",
+  "description": "This guide explains how to use grants to delegate permissions in QKMS.",
+  "source": "@site/docs/api/04-q-kms/01-user-manual/using-grants.md",
+  "sourceDirName": "api/04-q-kms/01-user-manual",
+  "slug": "/api/q-kms/user-manual/using-grants",
+  "permalink": "/docs/api/q-kms/user-manual/using-grants",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/04-q-kms/01-user-manual/using-grants.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "UsingGrants",
+    "sidebar_label": "UsingGrants"
+  },
+  "sidebar": "api",
+  "previous": {
+    "title": "Key States",
+    "permalink": "/docs/api/q-kms/user-manual/key-states"
+  },
+  "next": {
+    "title": "API Reference",
+    "permalink": "/docs/category/api-reference"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "api/q-kms/api-reference/key-operations/get-public-key",
+  "title": "GetPublicKey",
+  "description": "Downloads the public key of an asymmetric KMS key.",
+  "source": "@site/docs/api/04-q-kms/02-api-reference/01-key-operations/get-public-key.md",
+  "sourceDirName": "api/04-q-kms/02-api-reference/01-key-operations",
+  "slug": "/api/q-kms/api-reference/key-operations/get-public-key",
+  "permalink": "/docs/api/q-kms/api-reference/key-operations/get-public-key",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/04-q-kms/02-api-reference/01-key-operations/get-public-key.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "GetPublicKey",
+    "title": "GetPublicKey"
+  },
+  "sidebar": "api",
+  "previous": {
+    "title": "GetParametersForImport",
+    "permalink": "/docs/api/q-kms/api-reference/key-operations/get-parameters-for-import"
+  },
+  "next": {
+    "title": "ImportKeyMaterial",
+    "permalink": "/docs/api/q-kms/api-reference/key-operations/import-key-material"
+  }
+}

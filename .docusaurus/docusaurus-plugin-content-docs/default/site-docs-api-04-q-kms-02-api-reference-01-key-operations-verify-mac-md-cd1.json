@@ -1,0 +1,27 @@
+{
+  "id": "api/q-kms/api-reference/key-operations/verify-mac",
+  "title": "VerifyMac",
+  "description": "Verifies the integrity and authenticity of a message using a message authentication code (MAC).",
+  "source": "@site/docs/api/04-q-kms/02-api-reference/01-key-operations/verify-mac.md",
+  "sourceDirName": "api/04-q-kms/02-api-reference/01-key-operations",
+  "slug": "/api/q-kms/api-reference/key-operations/verify-mac",
+  "permalink": "/docs/api/q-kms/api-reference/key-operations/verify-mac",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/04-q-kms/02-api-reference/01-key-operations/verify-mac.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "VerifyMac",
+    "title": "VerifyMac"
+  },
+  "sidebar": "api",
+  "previous": {
+    "title": "UpdatePrimaryRegion",
+    "permalink": "/docs/api/q-kms/api-reference/key-operations/update-primary-region"
+  },
+  "next": {
+    "title": "Verify",
+    "permalink": "/docs/api/q-kms/api-reference/key-operations/verify"
+  }
+}

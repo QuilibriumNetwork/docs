@@ -1,0 +1,27 @@
+{
+  "id": "api/q-kms/api-reference/key-operations/revoke-grant",
+  "title": "RevokeGrant",
+  "description": "Revokes a grant for a KMS key.",
+  "source": "@site/docs/api/04-q-kms/02-api-reference/01-key-operations/revoke-grant.md",
+  "sourceDirName": "api/04-q-kms/02-api-reference/01-key-operations",
+  "slug": "/api/q-kms/api-reference/key-operations/revoke-grant",
+  "permalink": "/docs/api/q-kms/api-reference/key-operations/revoke-grant",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/04-q-kms/02-api-reference/01-key-operations/revoke-grant.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "RevokeGrant",
+    "title": "RevokeGrant"
+  },
+  "sidebar": "api",
+  "previous": {
+    "title": "RetireGrant",
+    "permalink": "/docs/api/q-kms/api-reference/key-operations/retire-grant"
+  },
+  "next": {
+    "title": "ScheduleKeyDeletion",
+    "permalink": "/docs/api/q-kms/api-reference/key-operations/schedule-key-deletion"
+  }
+}

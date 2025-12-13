@@ -1,0 +1,25 @@
+{
+  "id": "discover/the-illusion-of-decentralization-in-crypto-and-quilibriums-radical-alternative.",
+  "title": "The Illusion of Decentralization in Crypto, and Quilibrium’s Radical Alternative.",
+  "description": "This article is an extract from this live stream with Cassandra Heart (Quilibrium founder)",
+  "source": "@site/docs/discover/13-the-illusion-of-decentralization-in-crypto-and-quilibriums-radical-alternative..md",
+  "sourceDirName": "discover",
+  "slug": "/discover/the-illusion-of-decentralization-in-crypto-and-quilibriums-radical-alternative.",
+  "permalink": "/docs/discover/the-illusion-of-decentralization-in-crypto-and-quilibriums-radical-alternative.",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/discover/13-the-illusion-of-decentralization-in-crypto-and-quilibriums-radical-alternative..md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 13,
+  "frontMatter": {},
+  "sidebar": "discover",
+  "previous": {
+    "title": "The Alternative Thesis for Consumer Crypto",
+    "permalink": "/docs/discover/the-alternative-thesis-for-consumer-crypto"
+  },
+  "next": {
+    "title": "What If You Could Agree Without Revealing Intent?",
+    "permalink": "/docs/discover/programmable-mpc-vs-zkp"
+  }
+}

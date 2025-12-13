@@ -1,0 +1,25 @@
+{
+  "id": "api/q-storage/user-manual/working-with-buckets/list-buckets",
+  "title": "Listing a Bucket's Contents",
+  "description": "Listing a Bucket's content is a fundamental command to see what currently exists utilizing ListBuckets.",
+  "source": "@site/docs/api/03-q-storage/01-user-manual/02-working-with-buckets/03-list-buckets.md",
+  "sourceDirName": "api/03-q-storage/01-user-manual/02-working-with-buckets",
+  "slug": "/api/q-storage/user-manual/working-with-buckets/list-buckets",
+  "permalink": "/docs/api/q-storage/user-manual/working-with-buckets/list-buckets",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/03-q-storage/01-user-manual/02-working-with-buckets/03-list-buckets.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "api",
+  "previous": {
+    "title": "Making a Bucket Public",
+    "permalink": "/docs/api/q-storage/user-manual/working-with-buckets/edit-bucket-visibility"
+  },
+  "next": {
+    "title": "Delete a Bucket",
+    "permalink": "/docs/api/q-storage/user-manual/working-with-buckets/delete-a-bucket"
+  }
+}

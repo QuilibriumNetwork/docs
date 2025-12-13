@@ -1,0 +1,25 @@
+{
+  "id": "discover/quilibriums-innovative-use-of-passkeys",
+  "title": "Quilibrium's Innovative Use of Passkeys",
+  "description": "In the evolving landscape of decentralized networks, Quilibrium has introduced a groundbreaking approach to user authentication and security by leveraging passkeys.",
+  "source": "@site/docs/discover/10-quilibriums-innovative-use-of-passkeys.md",
+  "sourceDirName": "discover",
+  "slug": "/discover/quilibriums-innovative-use-of-passkeys",
+  "permalink": "/docs/discover/quilibriums-innovative-use-of-passkeys",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/discover/10-quilibriums-innovative-use-of-passkeys.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {},
+  "sidebar": "discover",
+  "previous": {
+    "title": "Quilibrium KMS: The Future of Key Management",
+    "permalink": "/docs/discover/quilibrium-kms"
+  },
+  "next": {
+    "title": "Security Audits of Quilibrium’s Cryptographic Protocols",
+    "permalink": "/docs/discover/security-audits-of-quilibriums-cryptographic-protocols"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "api/q-kms/api-reference/key-operations/generate-mac",
+  "title": "GenerateMAC",
+  "description": "Generates a message authentication code (MAC) for a message using a KMS key.",
+  "source": "@site/docs/api/04-q-kms/02-api-reference/01-key-operations/generate-mac.md",
+  "sourceDirName": "api/04-q-kms/02-api-reference/01-key-operations",
+  "slug": "/api/q-kms/api-reference/key-operations/generate-mac",
+  "permalink": "/docs/api/q-kms/api-reference/key-operations/generate-mac",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/04-q-kms/02-api-reference/01-key-operations/generate-mac.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "GenerateMAC",
+    "title": "GenerateMAC"
+  },
+  "sidebar": "api",
+  "previous": {
+    "title": "GenerateDataKey",
+    "permalink": "/docs/api/q-kms/api-reference/key-operations/generate-data-key"
+  },
+  "next": {
+    "title": "GetKeyPolicy",
+    "permalink": "/docs/api/q-kms/api-reference/key-operations/get-key-policy"
+  }
+}

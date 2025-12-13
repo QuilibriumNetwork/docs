@@ -1,0 +1,28 @@
+{
+  "id": "api/q-storage/user-manual/working-with-buckets/empty-a-bucket",
+  "title": "Empty A Bucket",
+  "description": "Emptying a bucket means deleting all Objects from a bucket, but keeping the bucket itself.",
+  "source": "@site/docs/api/03-q-storage/01-user-manual/02-working-with-buckets/05-empty-a-bucket.md",
+  "sourceDirName": "api/03-q-storage/01-user-manual/02-working-with-buckets",
+  "slug": "/api/q-storage/user-manual/working-with-buckets/empty-a-bucket",
+  "permalink": "/docs/api/q-storage/user-manual/working-with-buckets/empty-a-bucket",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/03-q-storage/01-user-manual/02-working-with-buckets/05-empty-a-bucket.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Empty A Bucket",
+    "sidebar_label": "Empty A Bucket"
+  },
+  "sidebar": "api",
+  "previous": {
+    "title": "Delete a Bucket",
+    "permalink": "/docs/api/q-storage/user-manual/working-with-buckets/delete-a-bucket"
+  },
+  "next": {
+    "title": "Using Bucket Tags",
+    "permalink": "/docs/api/q-storage/user-manual/working-with-buckets/using-bucket-tags"
+  }
+}

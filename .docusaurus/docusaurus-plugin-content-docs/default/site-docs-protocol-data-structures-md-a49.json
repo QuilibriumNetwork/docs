@@ -1,0 +1,23 @@
+{
+  "id": "protocol/data-structures",
+  "title": "Data Structures",
+  "description": "Quilibrium employs a sophisticated type system with canonical byte serialization for all protocol messages. This section explores the core data structures that form the foundation of the distributed private oblivious hypergraph.",
+  "source": "@site/docs/protocol/data-structures.md",
+  "sourceDirName": "protocol",
+  "slug": "/protocol/data-structures",
+  "permalink": "/docs/protocol/data-structures",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/protocol/data-structures.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "protocol",
+  "previous": {
+    "title": "Consensus Mechanism",
+    "permalink": "/docs/protocol/consensus"
+  }
+}

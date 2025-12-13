@@ -1,0 +1,27 @@
+{
+  "id": "api/q-kms/api-reference/key-operations/enable-key",
+  "title": "EnableKey",
+  "description": "Enables a KMS key.",
+  "source": "@site/docs/api/04-q-kms/02-api-reference/01-key-operations/enable-key.md",
+  "sourceDirName": "api/04-q-kms/02-api-reference/01-key-operations",
+  "slug": "/api/q-kms/api-reference/key-operations/enable-key",
+  "permalink": "/docs/api/q-kms/api-reference/key-operations/enable-key",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/04-q-kms/02-api-reference/01-key-operations/enable-key.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "EnableKey",
+    "title": "EnableKey"
+  },
+  "sidebar": "api",
+  "previous": {
+    "title": "EnableKeyRotation",
+    "permalink": "/docs/api/q-kms/api-reference/key-operations/enable-key-rotation"
+  },
+  "next": {
+    "title": "Encrypt",
+    "permalink": "/docs/api/q-kms/api-reference/key-operations/encrypt"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "api/overview",
+  "title": "Get Started",
+  "description": "Quilibrium's APIs are designed to provide access to the Quilibrium Network, offering developers a toolset for creating the world's censorship-resistant and decentralized applications.",
+  "source": "@site/docs/api/01-overview.md",
+  "sourceDirName": "api",
+  "slug": "/api/overview",
+  "permalink": "/docs/api/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/01-overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "api",
+  "next": {
+    "title": "Credentials",
+    "permalink": "/docs/api/credentials"
+  }
+}

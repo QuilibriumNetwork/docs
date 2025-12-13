@@ -1,0 +1,1481 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "build/applications/running-applications",
+          "docs": [
+            {
+              "id": "api/credentials",
+              "path": "/docs/api/credentials",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/overview",
+              "path": "/docs/api/overview",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/getting-started",
+              "path": "/docs/api/q-kms/api-reference/getting-started",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/cancel-key-deletion",
+              "path": "/docs/api/q-kms/api-reference/key-operations/cancel-key-deletion",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/create-alias",
+              "path": "/docs/api/q-kms/api-reference/key-operations/create-alias",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/create-grant",
+              "path": "/docs/api/q-kms/api-reference/key-operations/create-grant",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/create-key",
+              "path": "/docs/api/q-kms/api-reference/key-operations/create-key",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/decrypt",
+              "path": "/docs/api/q-kms/api-reference/key-operations/decrypt",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/delete-alias",
+              "path": "/docs/api/q-kms/api-reference/key-operations/delete-alias",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/delete-imported-key-material",
+              "path": "/docs/api/q-kms/api-reference/key-operations/delete-imported-key-material",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/derive-shared-secret",
+              "path": "/docs/api/q-kms/api-reference/key-operations/derive-shared-secret",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/describe-key",
+              "path": "/docs/api/q-kms/api-reference/key-operations/describe-key",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/disable-key",
+              "path": "/docs/api/q-kms/api-reference/key-operations/disable-key",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/disable-key-rotation",
+              "path": "/docs/api/q-kms/api-reference/key-operations/disable-key-rotation",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/enable-key",
+              "path": "/docs/api/q-kms/api-reference/key-operations/enable-key",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/enable-key-rotation",
+              "path": "/docs/api/q-kms/api-reference/key-operations/enable-key-rotation",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/encrypt",
+              "path": "/docs/api/q-kms/api-reference/key-operations/encrypt",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/generate-data-key",
+              "path": "/docs/api/q-kms/api-reference/key-operations/generate-data-key",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/generate-data-key-pair",
+              "path": "/docs/api/q-kms/api-reference/key-operations/generate-data-key-pair",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/generate-data-key-pair-without-plaintext",
+              "path": "/docs/api/q-kms/api-reference/key-operations/generate-data-key-pair-without-plaintext",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/generate-data-key-without-plaintext",
+              "path": "/docs/api/q-kms/api-reference/key-operations/generate-data-key-without-plaintext",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/generate-mac",
+              "path": "/docs/api/q-kms/api-reference/key-operations/generate-mac",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/get-key-policy",
+              "path": "/docs/api/q-kms/api-reference/key-operations/get-key-policy",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/get-key-rotation-status",
+              "path": "/docs/api/q-kms/api-reference/key-operations/get-key-rotation-status",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/get-parameters-for-import",
+              "path": "/docs/api/q-kms/api-reference/key-operations/get-parameters-for-import",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/get-public-key",
+              "path": "/docs/api/q-kms/api-reference/key-operations/get-public-key",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/import-key-material",
+              "path": "/docs/api/q-kms/api-reference/key-operations/import-key-material",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/list-aliases",
+              "path": "/docs/api/q-kms/api-reference/key-operations/list-aliases",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/list-grants",
+              "path": "/docs/api/q-kms/api-reference/key-operations/list-grants",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/list-key-policies",
+              "path": "/docs/api/q-kms/api-reference/key-operations/list-key-policies",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/list-keys",
+              "path": "/docs/api/q-kms/api-reference/key-operations/list-keys",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/list-resource-tags",
+              "path": "/docs/api/q-kms/api-reference/key-operations/list-resource-tags",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/list-retirable-grants",
+              "path": "/docs/api/q-kms/api-reference/key-operations/list-retirable-grants",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/put-key-policy",
+              "path": "/docs/api/q-kms/api-reference/key-operations/put-key-policy",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/re-encrypt",
+              "path": "/docs/api/q-kms/api-reference/key-operations/re-encrypt",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/replicate-key",
+              "path": "/docs/api/q-kms/api-reference/key-operations/replicate-key",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/retire-grant",
+              "path": "/docs/api/q-kms/api-reference/key-operations/retire-grant",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/revoke-grant",
+              "path": "/docs/api/q-kms/api-reference/key-operations/revoke-grant",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/schedule-key-deletion",
+              "path": "/docs/api/q-kms/api-reference/key-operations/schedule-key-deletion",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/sign",
+              "path": "/docs/api/q-kms/api-reference/key-operations/sign",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/tag-resource",
+              "path": "/docs/api/q-kms/api-reference/key-operations/tag-resource",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/untag-resource",
+              "path": "/docs/api/q-kms/api-reference/key-operations/untag-resource",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/update-alias",
+              "path": "/docs/api/q-kms/api-reference/key-operations/update-alias",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/update-key-description",
+              "path": "/docs/api/q-kms/api-reference/key-operations/update-key-description",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/update-primary-region",
+              "path": "/docs/api/q-kms/api-reference/key-operations/update-primary-region",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/verify",
+              "path": "/docs/api/q-kms/api-reference/key-operations/verify",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/api-reference/key-operations/verify-mac",
+              "path": "/docs/api/q-kms/api-reference/key-operations/verify-mac",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/overview",
+              "path": "/docs/api/q-kms/overview",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/user-manual/creating-keys",
+              "path": "/docs/api/q-kms/user-manual/creating-keys",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/user-manual/deleting-keys",
+              "path": "/docs/api/q-kms/user-manual/deleting-keys",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/user-manual/getting-started",
+              "path": "/docs/api/q-kms/user-manual/getting-started",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/user-manual/importing-key-material",
+              "path": "/docs/api/q-kms/user-manual/importing-key-material",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/user-manual/key-policies",
+              "path": "/docs/api/q-kms/user-manual/key-policies",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/user-manual/key-states",
+              "path": "/docs/api/q-kms/user-manual/key-states",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-kms/user-manual/using-grants",
+              "path": "/docs/api/q-kms/user-manual/using-grants",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/create-bucket",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/create-bucket",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/delete-bucket",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/delete-bucket",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/delete-bucket-cors",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/delete-bucket-cors",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/delete-bucket-encryption",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/delete-bucket-encryption",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/delete-bucket-lifecycle",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/delete-bucket-lifecycle",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/delete-bucket-policy",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/delete-bucket-policy",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/delete-bucket-tagging",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/delete-bucket-tagging",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/delete-bucket-website",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/delete-bucket-website",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/delete-public-access-block",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/delete-public-access-block",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/get-bucket-acl",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/get-bucket-acl",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/get-bucket-analytics-configuration",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/get-bucket-analytics-configuration",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/get-bucket-cors",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/get-bucket-cors",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/get-bucket-encryption",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/get-bucket-encryption",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/get-bucket-lifecycle",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/get-bucket-lifecycle",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/get-bucket-lifecycle-configuration",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/get-bucket-lifecycle-configuration",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/get-bucket-logging",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/get-bucket-logging",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/get-bucket-metadata-table-configuration",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/get-bucket-metadata-table-configuration",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/get-bucket-ownership-controls",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/get-bucket-ownership-controls",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/get-bucket-policy",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/get-bucket-policy",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/get-bucket-policy-status",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/get-bucket-policy-status",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/get-bucket-tagging",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/get-bucket-tagging",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/get-bucket-versioning",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/get-bucket-versioning",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/get-bucket-website",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/get-bucket-website",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/head-bucket",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/head-bucket",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/list-buckets",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/list-buckets",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/put-bucket-acl",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/put-bucket-acl",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/put-bucket-encryption",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/put-bucket-encryption",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/put-bucket-lifecycle",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/put-bucket-lifecycle",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/put-bucket-lifecycle-configuration",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/put-bucket-lifecycle-configuration",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/put-bucket-website",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/put-bucket-website",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/bucket-operations/put-object-lock-configuration",
+              "path": "/docs/api/q-storage/api-reference/bucket-operations/put-object-lock-configuration",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/abort-incomplete-multipart-upload",
+              "path": "/docs/api/q-storage/api-reference/data-types/abort-incomplete-multipart-upload",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/analytics-filter",
+              "path": "/docs/api/q-storage/api-reference/data-types/analytics-filter",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/bucket",
+              "path": "/docs/api/q-storage/api-reference/data-types/bucket",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/bucket-logging-status",
+              "path": "/docs/api/q-storage/api-reference/data-types/bucket-logging-status",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/bucket-policy",
+              "path": "/docs/api/q-storage/api-reference/data-types/bucket-policy",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/completed-part",
+              "path": "/docs/api/q-storage/api-reference/data-types/completed-part",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/condition",
+              "path": "/docs/api/q-storage/api-reference/data-types/condition",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/copy-object-result",
+              "path": "/docs/api/q-storage/api-reference/data-types/copy-object-result",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/cors-rule",
+              "path": "/docs/api/q-storage/api-reference/data-types/cors-rule",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/default-retention",
+              "path": "/docs/api/q-storage/api-reference/data-types/default-retention",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/error-details",
+              "path": "/docs/api/q-storage/api-reference/data-types/error-details",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/error-document",
+              "path": "/docs/api/q-storage/api-reference/data-types/error-document",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/grant",
+              "path": "/docs/api/q-storage/api-reference/data-types/grant",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/grantee",
+              "path": "/docs/api/q-storage/api-reference/data-types/grantee",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/index-document",
+              "path": "/docs/api/q-storage/api-reference/data-types/index-document",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/initiator",
+              "path": "/docs/api/q-storage/api-reference/data-types/initiator",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/lifecycle-expiration",
+              "path": "/docs/api/q-storage/api-reference/data-types/lifecycle-expiration",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/lifecycle-rule",
+              "path": "/docs/api/q-storage/api-reference/data-types/lifecycle-rule",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/lifecycle-rule-and-operator",
+              "path": "/docs/api/q-storage/api-reference/data-types/lifecycle-rule-and-operator",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/lifecycle-rule-filter",
+              "path": "/docs/api/q-storage/api-reference/data-types/lifecycle-rule-filter",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/logging-enabled",
+              "path": "/docs/api/q-storage/api-reference/data-types/logging-enabled",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/metadata-table-configuration",
+              "path": "/docs/api/q-storage/api-reference/data-types/metadata-table-configuration",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/metadata-table-configuration-result",
+              "path": "/docs/api/q-storage/api-reference/data-types/metadata-table-configuration-result",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/noncurrent-version-expiration",
+              "path": "/docs/api/q-storage/api-reference/data-types/noncurrent-version-expiration",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/object",
+              "path": "/docs/api/q-storage/api-reference/data-types/object",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/object-lock-rule",
+              "path": "/docs/api/q-storage/api-reference/data-types/object-lock-rule",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/owner",
+              "path": "/docs/api/q-storage/api-reference/data-types/owner",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/ownership-controls",
+              "path": "/docs/api/q-storage/api-reference/data-types/ownership-controls",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/ownership-controls-rule",
+              "path": "/docs/api/q-storage/api-reference/data-types/ownership-controls-rule",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/part",
+              "path": "/docs/api/q-storage/api-reference/data-types/part",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/policy-status",
+              "path": "/docs/api/q-storage/api-reference/data-types/policy-status",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/redirect",
+              "path": "/docs/api/q-storage/api-reference/data-types/redirect",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/redirect-all-requests-to",
+              "path": "/docs/api/q-storage/api-reference/data-types/redirect-all-requests-to",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/routing-rule",
+              "path": "/docs/api/q-storage/api-reference/data-types/routing-rule",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/rule",
+              "path": "/docs/api/q-storage/api-reference/data-types/rule",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/s3-tables-destination-result",
+              "path": "/docs/api/q-storage/api-reference/data-types/s3-tables-destination-result",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/server-side-encryption-rule",
+              "path": "/docs/api/q-storage/api-reference/data-types/server-side-encryption-rule",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/statement",
+              "path": "/docs/api/q-storage/api-reference/data-types/statement",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/tag",
+              "path": "/docs/api/q-storage/api-reference/data-types/tag",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/tagging",
+              "path": "/docs/api/q-storage/api-reference/data-types/tagging",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/transition",
+              "path": "/docs/api/q-storage/api-reference/data-types/transition",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/upload-part",
+              "path": "/docs/api/q-storage/api-reference/data-types/upload-part",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/versioning-configuration",
+              "path": "/docs/api/q-storage/api-reference/data-types/versioning-configuration",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/data-types/website-configuration",
+              "path": "/docs/api/q-storage/api-reference/data-types/website-configuration",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/getting-started",
+              "path": "/docs/api/q-storage/api-reference/getting-started",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/index",
+              "path": "/docs/api/q-storage/api-reference/index",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/multipart-operations/abort-multipart-upload",
+              "path": "/docs/api/q-storage/api-reference/multipart-operations/abort-multipart-upload",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/multipart-operations/complete-multipart-upload",
+              "path": "/docs/api/q-storage/api-reference/multipart-operations/complete-multipart-upload",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/multipart-operations/create-multipart-upload",
+              "path": "/docs/api/q-storage/api-reference/multipart-operations/create-multipart-upload",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/multipart-operations/list-multipart-uploads",
+              "path": "/docs/api/q-storage/api-reference/multipart-operations/list-multipart-uploads",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/multipart-operations/list-parts",
+              "path": "/docs/api/q-storage/api-reference/multipart-operations/list-parts",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/multipart-operations/upload-part",
+              "path": "/docs/api/q-storage/api-reference/multipart-operations/upload-part",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/object-operations/copy-object",
+              "path": "/docs/api/q-storage/api-reference/object-operations/copy-object",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/object-operations/delete-object",
+              "path": "/docs/api/q-storage/api-reference/object-operations/delete-object",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/object-operations/get-object",
+              "path": "/docs/api/q-storage/api-reference/object-operations/get-object",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/object-operations/get-object-acl",
+              "path": "/docs/api/q-storage/api-reference/object-operations/get-object-acl",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/object-operations/head-object",
+              "path": "/docs/api/q-storage/api-reference/object-operations/head-object",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/object-operations/list-objects",
+              "path": "/docs/api/q-storage/api-reference/object-operations/list-objects",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/object-operations/list-objects-v2",
+              "path": "/docs/api/q-storage/api-reference/object-operations/list-objects-v2",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/object-operations/put-object",
+              "path": "/docs/api/q-storage/api-reference/object-operations/put-object",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/object-operations/put-object-acl",
+              "path": "/docs/api/q-storage/api-reference/object-operations/put-object-acl",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/api-reference/object-operations/put-object-legal-hold",
+              "path": "/docs/api/q-storage/api-reference/object-operations/put-object-legal-hold",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/hosting-websites-on-quilibrium",
+              "path": "/docs/api/q-storage/hosting-websites-on-quilibrium",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/overview",
+              "path": "/docs/api/q-storage/overview",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/user-manual/access-control",
+              "path": "/docs/api/q-storage/user-manual/access-control",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/user-manual/credentials",
+              "path": "/docs/api/q-storage/user-manual/credentials",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/user-manual/getting-started",
+              "path": "/docs/api/q-storage/user-manual/getting-started",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/user-manual/object-versioning",
+              "path": "/docs/api/q-storage/user-manual/object-versioning",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/user-manual/pricing",
+              "path": "/docs/api/q-storage/user-manual/pricing",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/user-manual/privacy",
+              "path": "/docs/api/q-storage/user-manual/privacy",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/user-manual/regions",
+              "path": "/docs/api/q-storage/user-manual/regions",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/user-manual/working-with-buckets/bucket-names",
+              "path": "/docs/api/q-storage/user-manual/working-with-buckets/bucket-names",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/user-manual/working-with-buckets/creating-a-bucket",
+              "path": "/docs/api/q-storage/user-manual/working-with-buckets/creating-a-bucket",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/user-manual/working-with-buckets/delete-a-bucket",
+              "path": "/docs/api/q-storage/user-manual/working-with-buckets/delete-a-bucket",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/user-manual/working-with-buckets/edit-bucket-visibility",
+              "path": "/docs/api/q-storage/user-manual/working-with-buckets/edit-bucket-visibility",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/user-manual/working-with-buckets/empty-a-bucket",
+              "path": "/docs/api/q-storage/user-manual/working-with-buckets/empty-a-bucket",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/user-manual/working-with-buckets/list-buckets",
+              "path": "/docs/api/q-storage/user-manual/working-with-buckets/list-buckets",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/user-manual/working-with-buckets/using-bucket-tags",
+              "path": "/docs/api/q-storage/user-manual/working-with-buckets/using-bucket-tags",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/user-manual/working-with-buckets/what-is-a-bucket",
+              "path": "/docs/api/q-storage/user-manual/working-with-buckets/what-is-a-bucket",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/user-manual/working-with-objects/change-object-visibility",
+              "path": "/docs/api/q-storage/user-manual/working-with-objects/change-object-visibility",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/user-manual/working-with-objects/copying-moving-renaming-objects",
+              "path": "/docs/api/q-storage/user-manual/working-with-objects/copying-moving-renaming-objects",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/user-manual/working-with-objects/delete-an-object",
+              "path": "/docs/api/q-storage/user-manual/working-with-objects/delete-an-object",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/user-manual/working-with-objects/downloading-an-object",
+              "path": "/docs/api/q-storage/user-manual/working-with-objects/downloading-an-object",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/user-manual/working-with-objects/list-bucket-contents",
+              "path": "/docs/api/q-storage/user-manual/working-with-objects/list-bucket-contents",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/user-manual/working-with-objects/organizing-and-listing-objects/listing-objects",
+              "path": "/docs/api/q-storage/user-manual/working-with-objects/organizing-and-listing-objects/listing-objects",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/user-manual/working-with-objects/organizing-and-listing-objects/organizing-objects-using-folders",
+              "path": "/docs/api/q-storage/user-manual/working-with-objects/organizing-and-listing-objects/organizing-objects-using-folders",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/user-manual/working-with-objects/organizing-and-listing-objects/using-tags",
+              "path": "/docs/api/q-storage/user-manual/working-with-objects/organizing-and-listing-objects/using-tags",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/user-manual/working-with-objects/organizing-and-listing-objects/viewing-object-properties",
+              "path": "/docs/api/q-storage/user-manual/working-with-objects/organizing-and-listing-objects/viewing-object-properties",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/user-manual/working-with-objects/upload-an-object",
+              "path": "/docs/api/q-storage/user-manual/working-with-objects/upload-an-object",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/user-manual/working-with-objects/what-is-an-object",
+              "path": "/docs/api/q-storage/user-manual/working-with-objects/what-is-an-object",
+              "sidebar": "api"
+            },
+            {
+              "id": "api/q-storage/user-manual/working-with-objects/working-with-metadata",
+              "path": "/docs/api/q-storage/user-manual/working-with-objects/working-with-metadata",
+              "sidebar": "api"
+            },
+            {
+              "id": "build/applications/compiling-to-ot-circuits",
+              "path": "/docs/build/applications/compiling-to-ot-circuits",
+              "sidebar": "build"
+            },
+            {
+              "id": "build/applications/deploying-to-the-network",
+              "path": "/docs/build/applications/deploying-to-the-network",
+              "sidebar": "build"
+            },
+            {
+              "id": "build/applications/running-applications",
+              "path": "/docs/build/applications/running-applications",
+              "sidebar": "build"
+            },
+            {
+              "id": "build/q-service-apis",
+              "path": "/docs/build/q-service-apis",
+              "sidebar": "build"
+            },
+            {
+              "id": "build/tokens/creating-tokens",
+              "path": "/docs/build/tokens/creating-tokens",
+              "sidebar": "build"
+            },
+            {
+              "id": "discover/core-technologies-in-quilibrium",
+              "path": "/docs/discover/core-technologies-in-quilibrium",
+              "sidebar": "discover"
+            },
+            {
+              "id": "discover/FAQ",
+              "path": "/docs/discover/FAQ",
+              "sidebar": "discover"
+            },
+            {
+              "id": "discover/gas-fees-and-dynamic-fee-market-on-quilibrium",
+              "path": "/docs/discover/gas-fees-and-dynamic-fee-market-on-quilibrium",
+              "sidebar": "discover"
+            },
+            {
+              "id": "discover/how-does-quilibrium-maintain-decentralization",
+              "path": "/docs/discover/how-does-quilibrium-maintain-decentralization",
+              "sidebar": "discover"
+            },
+            {
+              "id": "discover/how-quilibrium-protects-privacy-without-enabling-crime",
+              "path": "/docs/discover/how-quilibrium-protects-privacy-without-enabling-crime",
+              "sidebar": "discover"
+            },
+            {
+              "id": "discover/programmable-mpc-vs-zkp",
+              "path": "/docs/discover/programmable-mpc-vs-zkp",
+              "sidebar": "discover"
+            },
+            {
+              "id": "discover/q-story",
+              "path": "/docs/discover/q-story",
+              "sidebar": "discover"
+            },
+            {
+              "id": "discover/quilibrium-kms",
+              "path": "/docs/discover/quilibrium-kms",
+              "sidebar": "discover"
+            },
+            {
+              "id": "discover/quilibrium-tokenomics",
+              "path": "/docs/discover/quilibrium-tokenomics",
+              "sidebar": "discover"
+            },
+            {
+              "id": "discover/quilibriums-innovative-use-of-passkeys",
+              "path": "/docs/discover/quilibriums-innovative-use-of-passkeys",
+              "sidebar": "discover"
+            },
+            {
+              "id": "discover/security-audits-of-quilibriums-cryptographic-protocols",
+              "path": "/docs/discover/security-audits-of-quilibriums-cryptographic-protocols",
+              "sidebar": "discover"
+            },
+            {
+              "id": "discover/the-alternative-thesis-for-consumer-crypto",
+              "path": "/docs/discover/the-alternative-thesis-for-consumer-crypto",
+              "sidebar": "discover"
+            },
+            {
+              "id": "discover/the-illusion-of-decentralization-in-crypto-and-quilibriums-radical-alternative.",
+              "path": "/docs/discover/the-illusion-of-decentralization-in-crypto-and-quilibriums-radical-alternative.",
+              "sidebar": "discover"
+            },
+            {
+              "id": "discover/what-is-quilibrium",
+              "path": "/docs/discover/what-is-quilibrium",
+              "sidebar": "discover"
+            },
+            {
+              "id": "learn/block-storage/bloom-clock",
+              "path": "/docs/learn/block-storage/bloom-clock",
+              "sidebar": "learn"
+            },
+            {
+              "id": "learn/block-storage/index",
+              "path": "/docs/learn/block-storage/",
+              "sidebar": "learn"
+            },
+            {
+              "id": "learn/block-storage/vdfs",
+              "path": "/docs/learn/block-storage/vdfs",
+              "sidebar": "learn"
+            },
+            {
+              "id": "learn/communication/addressing",
+              "path": "/docs/learn/communication/addressing",
+              "sidebar": "learn"
+            },
+            {
+              "id": "learn/communication/e2ee",
+              "path": "/docs/learn/communication/e2ee",
+              "sidebar": "learn"
+            },
+            {
+              "id": "learn/communication/index",
+              "path": "/docs/learn/communication/",
+              "sidebar": "learn"
+            },
+            {
+              "id": "learn/communication/mixnet-routing",
+              "path": "/docs/learn/communication/mixnet-routing",
+              "sidebar": "learn"
+            },
+            {
+              "id": "learn/communication/p2p-communication",
+              "path": "/docs/learn/communication/p2p-communication",
+              "sidebar": "learn"
+            },
+            {
+              "id": "learn/oblivious-hypergraph/hypergraph-construction",
+              "path": "/docs/learn/oblivious-hypergraph/hypergraph-construction",
+              "sidebar": "learn"
+            },
+            {
+              "id": "learn/oblivious-hypergraph/index",
+              "path": "/docs/learn/oblivious-hypergraph/",
+              "sidebar": "learn"
+            },
+            {
+              "id": "learn/oblivious-hypergraph/oblivious-transfer",
+              "path": "/docs/learn/oblivious-hypergraph/oblivious-transfer",
+              "sidebar": "learn"
+            },
+            {
+              "id": "learn/oblivious-hypergraph/query-evaluator",
+              "path": "/docs/learn/oblivious-hypergraph/query-evaluator",
+              "sidebar": "learn"
+            },
+            {
+              "id": "learn/oblivious-hypergraph/query-planner",
+              "path": "/docs/learn/oblivious-hypergraph/query-planner",
+              "sidebar": "learn"
+            },
+            {
+              "id": "learn/oblivious-hypergraph/rdf-storage",
+              "path": "/docs/learn/oblivious-hypergraph/rdf-storage",
+              "sidebar": "learn"
+            },
+            {
+              "id": "learn/operating-system/accounts",
+              "path": "/docs/learn/operating-system/accounts",
+              "sidebar": "learn"
+            },
+            {
+              "id": "learn/operating-system/dbos",
+              "path": "/docs/learn/operating-system/dbos",
+              "sidebar": "learn"
+            },
+            {
+              "id": "learn/operating-system/file-system",
+              "path": "/docs/learn/operating-system/file-system",
+              "sidebar": "learn"
+            },
+            {
+              "id": "learn/operating-system/index",
+              "path": "/docs/learn/operating-system/",
+              "sidebar": "learn"
+            },
+            {
+              "id": "learn/operating-system/ipc",
+              "path": "/docs/learn/operating-system/ipc",
+              "sidebar": "learn"
+            },
+            {
+              "id": "learn/operating-system/key-management",
+              "path": "/docs/learn/operating-system/key-management",
+              "sidebar": "learn"
+            },
+            {
+              "id": "learn/operating-system/message-queues",
+              "path": "/docs/learn/operating-system/message-queues",
+              "sidebar": "learn"
+            },
+            {
+              "id": "learn/operating-system/scheduler",
+              "path": "/docs/learn/operating-system/scheduler",
+              "sidebar": "learn"
+            },
+            {
+              "id": "learn/operating-system/universal-resources",
+              "path": "/docs/learn/operating-system/universal-resources",
+              "sidebar": "learn"
+            },
+            {
+              "id": "protocol/consensus",
+              "path": "/docs/protocol/consensus",
+              "sidebar": "protocol"
+            },
+            {
+              "id": "protocol/data-structures",
+              "path": "/docs/protocol/data-structures",
+              "sidebar": "protocol"
+            },
+            {
+              "id": "protocol/overview",
+              "path": "/docs/protocol/overview",
+              "sidebar": "protocol"
+            },
+            {
+              "id": "run-node/account-aliases",
+              "path": "/docs/run-node/account-aliases",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/advanced-configuration",
+              "path": "/docs/run-node/advanced-configuration",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/advanced-node-management",
+              "path": "/docs/run-node/advanced-node-management",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/linux_configuration",
+              "path": "/docs/run-node/linux_configuration",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/checksum",
+              "path": "/docs/run-node/qclient/checksum",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/commands/alias",
+              "path": "/docs/run-node/qclient/commands/alias",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/commands/bridging",
+              "path": "/docs/run-node/qclient/commands/bridging",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/commands/command-list",
+              "path": "/docs/run-node/qclient/commands/command-list",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/commands/compute",
+              "path": "/docs/run-node/qclient/commands/compute",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/commands/deploy",
+              "path": "/docs/run-node/qclient/commands/deploy",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/commands/global-flags",
+              "path": "/docs/run-node/qclient/commands/global-flags",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/commands/hypergraph",
+              "path": "/docs/run-node/qclient/commands/hypergraph",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/commands/key",
+              "path": "/docs/run-node/qclient/commands/key",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/commands/messaging",
+              "path": "/docs/run-node/qclient/commands/messaging",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/commands/node",
+              "path": "/docs/run-node/qclient/commands/node",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/commands/qclient",
+              "path": "/docs/run-node/qclient/commands/qclient",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/commands/qclient-config",
+              "path": "/docs/run-node/qclient/commands/qclient-config",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/commands/token",
+              "path": "/docs/run-node/qclient/commands/token",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/managing-configs",
+              "path": "/docs/run-node/qclient/managing-configs",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/node/auto-update",
+              "path": "/docs/run-node/qclient/node/auto-update",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/node/clean",
+              "path": "/docs/run-node/qclient/node/clean",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/node/install",
+              "path": "/docs/run-node/qclient/node/install",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/node/key-management/create-new-keyset",
+              "path": "/docs/run-node/qclient/node/key-management/create-new-keyset",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/node/key-management/import-keysets",
+              "path": "/docs/run-node/qclient/node/key-management/import-keysets",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/node/key-management/initial-keyset",
+              "path": "/docs/run-node/qclient/node/key-management/initial-keyset",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/node/key-management/keys",
+              "path": "/docs/run-node/qclient/node/key-management/keys",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/node/key-management/multiple-keysets",
+              "path": "/docs/run-node/qclient/node/key-management/multiple-keysets",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/node/node-service/commands",
+              "path": "/docs/run-node/qclient/node/node-service/commands",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/node/node-service/environment-variables",
+              "path": "/docs/run-node/qclient/node/node-service/environment-variables",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/node/node-service/installing-node-service",
+              "path": "/docs/run-node/qclient/node/node-service/installing-node-service",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/node/node-service/overview",
+              "path": "/docs/run-node/qclient/node/node-service/overview",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/node/run-node-via-node-service",
+              "path": "/docs/run-node/qclient/node/run-node-via-node-service",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/node/update",
+              "path": "/docs/run-node/qclient/node/update",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/qclient-101",
+              "path": "/docs/run-node/qclient/qclient-101",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/qclient/setup",
+              "path": "/docs/run-node/qclient/setup",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/quick-start",
+              "path": "/docs/run-node/quick-start",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/RPC",
+              "path": "/docs/run-node/RPC",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/shard-enrollment-process",
+              "path": "/docs/run-node/shard-enrollment-process",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/system-requirements",
+              "path": "/docs/run-node/system-requirements",
+              "sidebar": "run"
+            },
+            {
+              "id": "run-node/upgrade-2.1",
+              "path": "/docs/run-node/upgrade-2.1",
+              "sidebar": "run"
+            },
+            {
+              "id": "/category/applications",
+              "path": "/docs/category/applications",
+              "sidebar": "build"
+            },
+            {
+              "id": "/category/tokens",
+              "path": "/docs/category/tokens",
+              "sidebar": "build"
+            },
+            {
+              "id": "/category/qstorage",
+              "path": "/docs/category/qstorage",
+              "sidebar": "api"
+            },
+            {
+              "id": "/category/qstorage-user-manual",
+              "path": "/docs/category/qstorage-user-manual",
+              "sidebar": "api"
+            },
+            {
+              "id": "/category/working-with-buckets",
+              "path": "/docs/category/working-with-buckets",
+              "sidebar": "api"
+            },
+            {
+              "id": "/category/working-with-objects",
+              "path": "/docs/category/working-with-objects",
+              "sidebar": "api"
+            },
+            {
+              "id": "/category/organizing-and-listing-objects",
+              "path": "/docs/category/organizing-and-listing-objects",
+              "sidebar": "api"
+            },
+            {
+              "id": "/category/qstorage-api-reference",
+              "path": "/docs/category/qstorage-api-reference",
+              "sidebar": "api"
+            },
+            {
+              "id": "/category/bucket-operations",
+              "path": "/docs/category/bucket-operations",
+              "sidebar": "api"
+            },
+            {
+              "id": "/category/object-operations",
+              "path": "/docs/category/object-operations",
+              "sidebar": "api"
+            },
+            {
+              "id": "/category/multipart-operations",
+              "path": "/docs/category/multipart-operations",
+              "sidebar": "api"
+            },
+            {
+              "id": "/category/data-types",
+              "path": "/docs/category/data-types",
+              "sidebar": "api"
+            },
+            {
+              "id": "/category/qkms",
+              "path": "/docs/category/qkms",
+              "sidebar": "api"
+            },
+            {
+              "id": "/category/qkms-user-manual",
+              "path": "/docs/category/qkms-user-manual",
+              "sidebar": "api"
+            },
+            {
+              "id": "/category/api-reference",
+              "path": "/docs/category/api-reference",
+              "sidebar": "api"
+            },
+            {
+              "id": "/category/key-operations",
+              "path": "/docs/category/key-operations",
+              "sidebar": "api"
+            },
+            {
+              "id": "/category/using-qclient",
+              "path": "/docs/category/using-qclient",
+              "sidebar": "run"
+            },
+            {
+              "id": "/category/qclient-commands",
+              "path": "/docs/category/qclient-commands",
+              "sidebar": "run"
+            },
+            {
+              "id": "/category/node-management-via-qclient",
+              "path": "/docs/category/node-management-via-qclient",
+              "sidebar": "run"
+            },
+            {
+              "id": "/category/node-system-service",
+              "path": "/docs/category/node-system-service",
+              "sidebar": "run"
+            },
+            {
+              "id": "/category/key-management",
+              "path": "/docs/category/key-management",
+              "sidebar": "run"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "build": {
+              "link": {
+                "path": "/docs/category/applications",
+                "label": "Applications"
+              }
+            },
+            "api": {
+              "link": {
+                "path": "/docs/api/overview",
+                "label": "api/overview"
+              }
+            },
+            "run": {
+              "link": {
+                "path": "/docs/run-node/quick-start",
+                "label": "run-node/quick-start"
+              }
+            },
+            "discover": {
+              "link": {
+                "path": "/docs/discover/what-is-quilibrium",
+                "label": "discover/what-is-quilibrium"
+              }
+            },
+            "learn": {
+              "link": {
+                "path": "/docs/learn/block-storage/",
+                "label": "Block Storage"
+              }
+            },
+            "protocol": {
+              "link": {
+                "path": "/docs/protocol/overview",
+                "label": "protocol/overview"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  },
+  "docusaurus-lunr-search": {
+    "default": {
+      "fileNames": {
+        "searchDoc": "search-doc-1765581691497.json",
+        "lunrIndex": "lunr-index-1765581691497.json"
+      }
+    }
+  }
+}

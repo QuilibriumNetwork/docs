@@ -1,0 +1,27 @@
+{
+  "id": "api/q-kms/api-reference/key-operations/list-key-policies",
+  "title": "ListKeyPolicies",
+  "description": "Gets the names of the key policies that are attached to a KMS key.",
+  "source": "@site/docs/api/04-q-kms/02-api-reference/01-key-operations/list-key-policies.md",
+  "sourceDirName": "api/04-q-kms/02-api-reference/01-key-operations",
+  "slug": "/api/q-kms/api-reference/key-operations/list-key-policies",
+  "permalink": "/docs/api/q-kms/api-reference/key-operations/list-key-policies",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/04-q-kms/02-api-reference/01-key-operations/list-key-policies.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "ListKeyPolicies",
+    "title": "ListKeyPolicies"
+  },
+  "sidebar": "api",
+  "previous": {
+    "title": "ListGrants",
+    "permalink": "/docs/api/q-kms/api-reference/key-operations/list-grants"
+  },
+  "next": {
+    "title": "ListKeys",
+    "permalink": "/docs/api/q-kms/api-reference/key-operations/list-keys"
+  }
+}

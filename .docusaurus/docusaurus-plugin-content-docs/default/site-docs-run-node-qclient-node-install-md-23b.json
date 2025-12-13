@@ -1,0 +1,27 @@
+{
+  "id": "run-node/qclient/node/install",
+  "title": "Install the Node Binary",
+  "description": "You can install the node binary manually without qclient, but this page is dedicated to how to install via qclient.",
+  "source": "@site/docs/run-node/qclient/node/install.md",
+  "sourceDirName": "run-node/qclient/node",
+  "slug": "/run-node/qclient/node/install",
+  "permalink": "/docs/run-node/qclient/node/install",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/run-node/qclient/node/install.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "run",
+  "previous": {
+    "title": "Node Management via QClient",
+    "permalink": "/docs/category/node-management-via-qclient"
+  },
+  "next": {
+    "title": "Node System Service",
+    "permalink": "/docs/category/node-system-service"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "learn/communication/p2p-communication",
+  "title": "P2P Communication",
+  "description": "",
+  "source": "@site/docs/learn/02-communication/p2p-communication.md",
+  "sourceDirName": "learn/02-communication",
+  "slug": "/learn/communication/p2p-communication",
+  "permalink": "/docs/learn/communication/p2p-communication",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/learn/02-communication/p2p-communication.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "learn",
+  "previous": {
+    "title": "Mixnet Routing",
+    "permalink": "/docs/learn/communication/mixnet-routing"
+  },
+  "next": {
+    "title": "Oblivious Hypergraph",
+    "permalink": "/docs/learn/oblivious-hypergraph/"
+  }
+}

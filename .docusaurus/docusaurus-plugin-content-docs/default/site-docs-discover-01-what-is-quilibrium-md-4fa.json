@@ -1,0 +1,21 @@
+{
+  "id": "discover/what-is-quilibrium",
+  "title": "What is Quilibrium?",
+  "description": "Quilibrium is a MPC protocol under active development with a bold mission: to secure every bit of traffic on the web. \\",
+  "source": "@site/docs/discover/01-what-is-quilibrium.md",
+  "sourceDirName": "discover",
+  "slug": "/discover/what-is-quilibrium",
+  "permalink": "/docs/discover/what-is-quilibrium",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/discover/01-what-is-quilibrium.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "discover",
+  "next": {
+    "title": "FAQs",
+    "permalink": "/docs/discover/FAQ"
+  }
+}

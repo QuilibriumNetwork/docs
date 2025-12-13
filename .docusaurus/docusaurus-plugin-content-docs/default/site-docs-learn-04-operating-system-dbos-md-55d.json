@@ -1,0 +1,27 @@
+{
+  "id": "learn/operating-system/dbos",
+  "title": "DBOS",
+  "description": "",
+  "source": "@site/docs/learn/04-operating-system/dbos.md",
+  "sourceDirName": "learn/04-operating-system",
+  "slug": "/learn/operating-system/dbos",
+  "permalink": "/docs/learn/operating-system/dbos",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/learn/04-operating-system/dbos.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "learn",
+  "previous": {
+    "title": "Operating System",
+    "permalink": "/docs/learn/operating-system/"
+  },
+  "next": {
+    "title": "File System",
+    "permalink": "/docs/learn/operating-system/file-system"
+  }
+}

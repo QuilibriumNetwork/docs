@@ -1,0 +1,27 @@
+{
+  "id": "api/q-kms/api-reference/key-operations/update-primary-region",
+  "title": "UpdatePrimaryRegion",
+  "description": "Updates the primary region of a multi-Region key.",
+  "source": "@site/docs/api/04-q-kms/02-api-reference/01-key-operations/update-primary-region.md",
+  "sourceDirName": "api/04-q-kms/02-api-reference/01-key-operations",
+  "slug": "/api/q-kms/api-reference/key-operations/update-primary-region",
+  "permalink": "/docs/api/q-kms/api-reference/key-operations/update-primary-region",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/04-q-kms/02-api-reference/01-key-operations/update-primary-region.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "UpdatePrimaryRegion",
+    "title": "UpdatePrimaryRegion"
+  },
+  "sidebar": "api",
+  "previous": {
+    "title": "UpdateKeyDescription",
+    "permalink": "/docs/api/q-kms/api-reference/key-operations/update-key-description"
+  },
+  "next": {
+    "title": "VerifyMac",
+    "permalink": "/docs/api/q-kms/api-reference/key-operations/verify-mac"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "api/q-storage/api-reference/object-operations/delete-object",
+  "title": "DeleteObject",
+  "description": "Removes the specified object from QStorage.",
+  "source": "@site/docs/api/03-q-storage/02-api-reference/02-object-operations/delete-object.md",
+  "sourceDirName": "api/03-q-storage/02-api-reference/02-object-operations",
+  "slug": "/api/q-storage/api-reference/object-operations/delete-object",
+  "permalink": "/docs/api/q-storage/api-reference/object-operations/delete-object",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/api/03-q-storage/02-api-reference/02-object-operations/delete-object.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "DeleteObject",
+    "title": "DeleteObject"
+  },
+  "sidebar": "api",
+  "previous": {
+    "title": "CopyObject",
+    "permalink": "/docs/api/q-storage/api-reference/object-operations/copy-object"
+  },
+  "next": {
+    "title": "GetObjectAcl",
+    "permalink": "/docs/api/q-storage/api-reference/object-operations/get-object-acl"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "run-node/qclient/node/key-management/initial-keyset",
+  "title": "Initial Keyset",
+  "description": "When first running a node, if you do not have a default keyset defined, a set of keys will be auto-generated for you.",
+  "source": "@site/docs/run-node/qclient/node/key-management/initial-keyset.md",
+  "sourceDirName": "run-node/qclient/node/key-management",
+  "slug": "/run-node/qclient/node/key-management/initial-keyset",
+  "permalink": "/docs/run-node/qclient/node/key-management/initial-keyset",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/run-node/qclient/node/key-management/initial-keyset.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "run",
+  "previous": {
+    "title": "Node Keys",
+    "permalink": "/docs/run-node/qclient/node/key-management/keys"
+  },
+  "next": {
+    "title": "Create A New Keyset",
+    "permalink": "/docs/run-node/qclient/node/key-management/create-new-keyset"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "run-node/upgrade-2.1",
+  "title": "2.1 Upgrade Guide",
+  "description": "The following guide is divided into two sections: Default Configuration (where nothing in .config/config.yml has been modified), and Advanced Configuration, for cases like specialized clusters.",
+  "source": "@site/docs/run-node/upgrade-2.1.md",
+  "sourceDirName": "run-node",
+  "slug": "/run-node/upgrade-2.1",
+  "permalink": "/docs/run-node/upgrade-2.1",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/run-node/upgrade-2.1.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "run",
+  "previous": {
+    "title": "System Requirements",
+    "permalink": "/docs/run-node/system-requirements"
+  },
+  "next": {
+    "title": "Advanced Configuration",
+    "permalink": "/docs/run-node/advanced-configuration"
+  }
+}

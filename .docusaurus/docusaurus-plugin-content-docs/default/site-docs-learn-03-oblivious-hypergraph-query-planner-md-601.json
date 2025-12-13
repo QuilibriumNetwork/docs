@@ -1,0 +1,27 @@
+{
+  "id": "learn/oblivious-hypergraph/query-planner",
+  "title": "Query Planner",
+  "description": "",
+  "source": "@site/docs/learn/03-oblivious-hypergraph/query-planner.md",
+  "sourceDirName": "learn/03-oblivious-hypergraph",
+  "slug": "/learn/oblivious-hypergraph/query-planner",
+  "permalink": "/docs/learn/oblivious-hypergraph/query-planner",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/learn/03-oblivious-hypergraph/query-planner.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "learn",
+  "previous": {
+    "title": "RDF Storage",
+    "permalink": "/docs/learn/oblivious-hypergraph/rdf-storage"
+  },
+  "next": {
+    "title": "Query Evaluator",
+    "permalink": "/docs/learn/oblivious-hypergraph/query-evaluator"
+  }
+}

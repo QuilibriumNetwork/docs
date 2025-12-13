@@ -1,0 +1,27 @@
+{
+  "id": "learn/block-storage/vdfs",
+  "title": "VDFs",
+  "description": "",
+  "source": "@site/docs/learn/01-block-storage/vdfs.md",
+  "sourceDirName": "learn/01-block-storage",
+  "slug": "/learn/block-storage/vdfs",
+  "permalink": "/docs/learn/block-storage/vdfs",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/learn/01-block-storage/vdfs.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "learn",
+  "previous": {
+    "title": "Foundations: Block Storage",
+    "permalink": "/docs/learn/block-storage/"
+  },
+  "next": {
+    "title": "Bloom Clock",
+    "permalink": "/docs/learn/block-storage/bloom-clock"
+  }
+}

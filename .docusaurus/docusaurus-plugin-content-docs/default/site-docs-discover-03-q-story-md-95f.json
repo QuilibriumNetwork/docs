@@ -1,0 +1,25 @@
+{
+  "id": "discover/q-story",
+  "title": "Q Story and Roadmap",
+  "description": "Curious how it all began? Presenting... the \"Q story\".",
+  "source": "@site/docs/discover/03-q-story.md",
+  "sourceDirName": "discover",
+  "slug": "/discover/q-story",
+  "permalink": "/docs/discover/q-story",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/discover/03-q-story.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "discover",
+  "previous": {
+    "title": "FAQs",
+    "permalink": "/docs/discover/FAQ"
+  },
+  "next": {
+    "title": "Quilibrium Tokenomics",
+    "permalink": "/docs/discover/quilibrium-tokenomics"
+  }
+}

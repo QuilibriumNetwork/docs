@@ -1,0 +1,25 @@
+{
+  "id": "discover/core-technologies-in-quilibrium/RPM",
+  "title": "Random Permutation Mixnet (RPM)",
+  "description": "Overview",
+  "source": "@site/docs/discover/05-core-technologies-in-quilibrium/07-RPM.md",
+  "sourceDirName": "discover/05-core-technologies-in-quilibrium",
+  "slug": "/discover/core-technologies-in-quilibrium/RPM",
+  "permalink": "/docs/discover/core-technologies-in-quilibrium/RPM",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/QuilibriumNetwork/docs/tree/main/docs/discover/05-core-technologies-in-quilibrium/07-RPM.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {},
+  "sidebar": "discover",
+  "previous": {
+    "title": "Shuffled Lattice Routing Protocol (SLRP)",
+    "permalink": "/docs/discover/core-technologies-in-quilibrium/SLRP"
+  },
+  "next": {
+    "title": "BlossomSub (Modified GossipSub)",
+    "permalink": "/docs/discover/core-technologies-in-quilibrium/BlossomSub"
+  }
+}
