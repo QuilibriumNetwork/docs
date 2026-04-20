@@ -8,24 +8,19 @@ sidebar_position: 1
 # Klearu
 
 Klearu is Quilibrium's native runtime for privacy-preserving machine learning inference.
-It is implemented in Rust and built into the network as a protocol intrinsic, meaning private AI computation is a first-class capability of the network, not an add-on layer.
-Klearu was open-sourced by Quilibrium Inc. in early 2026 and is available at [github.com/QuilibriumNetwork/klearu](https://github.com/QuilibriumNetwork/klearu).
+It is built into the network as a protocol intrinsic, meaning private AI computation is a first-class capability of the network, not an add-on layer.
 
-## What is Klearu?
+The core idea: when you run inference through Klearu, the server that computes your result never sees your input.
+This is not marketing -- it is a cryptographic guarantee enforced by a two-party computation protocol.
 
-Klearu is two interleaved systems sharing a single Rust workspace of 13 crates:
+Klearu is licensed under AGPL-3.0 with additional terms and is available at [github.com/QuilibriumNetwork/klearu](https://github.com/QuilibriumNetwork/klearu).
 
-**A SLIDE/LSH training and inference engine** -- a CPU-native sparse neural network runtime based on the SLIDE paper family, with SIMD acceleration, learnable hashing, LSH autotuning, and Deja Vu-style sparse transformer inference.
-
-**A 2PC/MPC private inference engine** -- a two-party secure computation system for LLM and vision model inference, where neither party learns the other's private inputs.
-
-These two systems are deliberately layered: the SLIDE engine handles efficient CPU-native inference, and the MPC engine wraps it with cryptographic privacy guarantees.
-The combination allows large language models to be evaluated on commodity CPU hardware with cryptographic protection of user inputs.
-
-## Why Private Inference Matters
+## Why private inference matters
 
 Today, virtually all AI inference happens on servers controlled by service providers.
-The two most common privacy approaches each carry significant limitations.
+When you send a prompt, you send plaintext to a machine you do not control.
+
+The two most common privacy approaches each carry significant limitations:
 
 **Trusted Execution Environments (TEEs)** place computation inside a hardware enclave.
 The operator cannot, in theory, inspect what happens inside the enclave.
@@ -43,12 +38,88 @@ The two sides run a joint protocol that produces the output, but at no point doe
 One important clarification: in Klearu's MPC model, the server's model weights are always public to the server itself.
 The protocol protects the client's token IDs, not the model parameters.
 
-## How the 2PC Protocol Works
+## Try it now
+
+A browser-based demo of Klearu private chat is available at:
+
+**[klearu-demo.qstorage.quilibrium.com](https://klearu-demo.qstorage.quilibrium.com/)**
+
+Party 0 runs entirely in your browser via WASM.
+Every message is split into cryptographic secret shares using 2PC: each server only ever sees random noise, and the actual content can only be reconstructed by combining both shares -- which only your browser holds.
+No plaintext ever leaves your device.
+
+The demo includes two features worth exploring:
+
+**Inspector tab**: shows the exact bytes sent to each server.
+Every DPF key and logit share is opaque because it is computationally indistinguishable from random data.
+You can verify that neither server receives anything meaningful on its own.
+
+**Thinking toggle**: reveals the model's chain-of-thought reasoning before its final answer.
+
+Output is slower than a typical LLM chat interface because the high-security mode generates and exchanges many Beaver triples per token across both servers.
+That cost is the price of the cryptographic guarantee.
+
+:::tip Verify it yourself
+Other services market themselves as "private" AI.
+Open your browser's network inspector while using them and look at the traffic: you will see your plaintext prompts sent directly to their servers.
+With Klearu, every payload is a cryptographic share that reveals nothing on its own.
+Check for yourself.
+:::
+
+## Security levels at a glance
+
+Klearu offers three security modes with different trade-offs between privacy and communication cost:
+
+| Level | Approx. communication per token | What the server learns |
+|---|---|---|
+| **Lower** | ~4.6 KB | Nothing about token IDs; intermediate computations run in plaintext after embedding reveal |
+| **High (secure)** | ~2 MB | Only intermediate RMS scalars and revealed Q/K attention vectors |
+| **High (no-reveal)** | Higher than secure | Only intermediate RMS scalars and attention weights (not Q/K raw values) |
+
+In lower-security mode, throughput is comparable to running a model locally with llama.cpp on CPU-only hardware.
+High-security mode has substantially higher communication overhead driven by Beaver triple generation and the number of MPC rounds per layer.
+
+## What Klearu is
+
+Klearu is two interleaved systems sharing a single Rust workspace of 13 crates:
+
+**A SLIDE/LSH training and inference engine** -- a CPU-native sparse neural network runtime based on the SLIDE paper family, with SIMD acceleration, learnable hashing, LSH autotuning, and Deja Vu-style sparse transformer inference.
+
+**A 2PC/MPC private inference engine** -- a two-party secure computation system for LLM and vision model inference, where neither party learns the other's private inputs.
+
+These two systems are deliberately layered: the SLIDE engine handles efficient CPU-native inference, and the MPC engine wraps it with cryptographic privacy guarantees.
+The combination allows large language models to be evaluated on commodity CPU hardware with cryptographic protection of user inputs.
+
+## Getting started
+
+Klearu is available today for local use, development, and integration testing.
+Mainnet integration is not yet shipped; see [Integration with Quilibrium](#integration-with-quilibrium) below.
+
+```bash
+git clone https://github.com/QuilibriumNetwork/klearu
+
+# LLM-only build -- no external dependencies
+cargo build --release -p klearu-llm
+
+# Full workspace build -- requires the Quilibrium monorepo as a sibling directory
+cargo build --release
+```
+
+**System requirements**: Klearu runs on CPU hardware without requiring GPUs.
+SIMD acceleration is provided via AVX2 on x86_64, NEON on ARM, and a scalar fallback for all other targets.
+BF16 quantization and cache-line-aligned weight layouts reduce memory bandwidth pressure.
+For two-server topology, both servers must be reachable from the client and from each other.
+
+**Model loading**: models are loaded in HuggingFace safetensors format.
+The LLM supports the LLaMA family and Qwen3.5 hybrid architecture; vision models load from HuggingFace [timm](https://huggingface.co/timm) safetensors.
+
+## How the 2PC protocol works
 
 Klearu supports two deployment topologies depending on the client environment.
 
 ### Topology A: Native TCP (klearu-private)
 
+For server-to-server or local development use.
 Both parties load the same model locally.
 The client (Party 0) holds the user's tokens.
 The server (Party 1) runs inference.
@@ -114,22 +185,24 @@ Note: the hash-to-point function uses a custom AES-128-based construction rather
 **Prefill optimization**: for multi-turn or long prompts, all N prompt token DPF keys are batched in a single TCP round-trip to Server B, and the LM head is skipped for N-1 of those positions.
 This is a meaningful throughput improvement for longer inputs.
 
-### Security Levels
+**Topology comparison**:
 
-| Level | Approx. communication per token | What the server learns |
+| | Topology A (TCP) | Topology B (WebSocket) |
 |---|---|---|
-| **Lower** | ~4.6 KB | Nothing about token IDs; intermediate computations run in plaintext after embedding reveal |
-| **High (secure)** | ~2 MB | Only intermediate RMS scalars and revealed Q/K attention vectors |
-| **High (no-reveal)** | Higher than secure | Only intermediate RMS scalars and attention weights (not Q/K raw values) |
+| Client | Native binary | Browser (WASM) |
+| Token privacy mechanism | Secret-shared embedding lookup | DPF-PIR |
+| Server count | 2 | 2 (Server A + Server B) |
+| Best for | Server-side applications, development | End-user browser products |
 
-## SLIDE and Sparse Inference
+## SLIDE and sparse inference
 
-### The Problem with Dense Layers
+### The problem with dense layers
 
 Dense neural network layers compute every neuron on every forward pass, even when most activations are near-zero and contribute little to the output.
 SLIDE solves this by using Locality-Sensitive Hashing (LSH) to identify the top-K active neurons without evaluating all of them.
+This gives O(top_k) cost per forward pass instead of O(n_neurons), and it is what makes Klearu practical on CPU hardware for large models.
 
-### Hash Families
+### Hash families
 
 Klearu implements five LSH families:
 
@@ -141,20 +214,19 @@ Klearu implements five LSH families:
 | **DWTA** | WTA extended with a deterministic fallback when the window has no non-zero elements | Sparse inputs (prevents collision on empty windows) |
 | **MinHash** | Approximates Jaccard similarity | Set-valued inputs |
 
-### LSH Index
+### LSH index
 
 The index maintains L hash tables, each with 2^K buckets.
 Neurons are inserted at construction time.
 At query time: compute L hashes, retrieve candidate neurons from matching buckets, union results or rank by match count, compute weighted sums only for the active subset.
 If no candidates are found, the system falls back to all neurons.
-This gives O(top_k) cost per forward pass instead of O(n_neurons).
 
 **Bucket eviction**: FIFO, or reservoir sampling using Algorithm R (Vitter 1985), which maintains uniform probability of retention regardless of stream length.
 
 **Rebuild scheduling**: rebuild intervals grow exponentially -- `rebuild_i_at = Σ_{j=0}^{i} floor(base × e^(λ×j))`.
 Early rebuilds are frequent (weights change fast at the start of training); later ones are spaced out as training converges.
 
-### MONGOOSE: Learnable Hashing
+### MONGOOSE: Learnable hashing
 
 Rather than using fixed random projections for LSH, `klearu-mongoose` trains the projection matrices to adapt to the actual data distribution.
 Training uses triplet loss with a straight-through gradient estimator.
@@ -164,11 +236,11 @@ Projection rows are L2-normalized after each update.
 Note: MONGOOSE is a standalone crate; it is not automatically wired into the SLIDE training loop.
 Callers must integrate it explicitly.
 
-### LSH Autotuning (klearu-bolt)
+### LSH autotuning (klearu-bolt)
 
 Given a target recall percentage, `klearu-bolt` performs a grid search over K ∈ [4, 16] and L ∈ [10, 200], comparing each configuration against brute-force ground truth and selecting the (K, L) pair with the highest recall-to-cost ratio that meets the threshold.
 
-## Deja Vu Sparse Transformer Inference
+## Deja Vu sparse transformer inference
 
 Klearu implements the [Deja Vu](https://arxiv.org/abs/2310.17157) technique for predicting which attention heads and MLP neurons matter for each token, without evaluating all of them.
 
@@ -185,8 +257,9 @@ This is more memory-efficient than the MLP predictor.
 
 Calibration runs dense forward passes over a calibration corpus, accumulates per-layer statistics, and trains the predictors.
 Predictors are saved as `layer_{i}_head.json` and `layer_{i}_neuron.json` files that can be reloaded without re-calibration.
+Predictor calibration is a one-time step per model.
 
-## LLM Architecture
+## LLM architecture
 
 Klearu supports the LLaMA family and the Qwen3.5 hybrid architecture.
 
@@ -201,7 +274,7 @@ GatedDeltaNet alternates with standard attention every 4 layers (configurable).
 
 **Model loading**: HuggingFace safetensors format.
 
-## Vision Architecture
+## Vision architecture
 
 `klearu-vision` supports nine vision transformer architectures:
 
@@ -222,7 +295,7 @@ A VLM bridge in `klearu-llm` connects vision encoders to the LLM for multimodal 
 
 Private inference is supported for all nine vision architectures, not only for LLMs.
 
-## Crate Architecture
+## Crate architecture
 
 | Crate | Role |
 |---|---|
@@ -246,62 +319,22 @@ The browser never holds the embedding matrix; embedding shares are obtained thro
 **Development note**: `DummyTripleGen` in `klearu-mpc` shares a known seed between parties to generate Beaver triples without real OT.
 It is explicitly cryptographically broken by design and exists only for local development and testing.
 
-## Live Demo
-
-A browser-based demo of Klearu private chat is available at:
-
-**[klearu-demo.qstorage.quilibrium.com](https://klearu-demo.qstorage.quilibrium.com/)**
-
-Party 0 runs entirely in your browser via WASM.
-Every message is split into cryptographic secret shares using 2PC: each server only ever sees random noise, and the actual content can only be reconstructed by combining both shares -- which only your browser holds.
-No plaintext ever leaves your device.
-
-The demo includes two features worth exploring:
-
-**Inspector tab**: shows the exact bytes sent to each server.
-Every DPF key and logit share is marked opaque because it is computationally indistinguishable from random data.
-You can verify that neither server receives anything meaningful on its own.
-
-**Thinking toggle**: reveals the model's chain-of-thought reasoning before its final answer.
-
-Output is slower than a typical LLM chat interface because the high-security mode generates and exchanges many Beaver triples per token across both servers.
-That cost is the price of the cryptographic guarantee.
-
-:::tip Verify it yourself
-Other services market themselves as "private" AI.
-Open your browser's network inspector while using them and look at the traffic: you will see your plaintext prompts sent directly to their servers.
-With Klearu, every payload is a cryptographic share that reveals nothing on its own.
-Check for yourself.
-:::
-
-## Hardware and Performance
-
-Klearu runs on CPU hardware without requiring GPUs.
-SIMD acceleration is provided via AVX2 on x86_64, NEON on ARM, and a scalar fallback for all other targets.
-BF16 quantization and cache-line-aligned weight layouts reduce memory bandwidth pressure.
-
-In lower-security mode, throughput is comparable to running a model locally with llama.cpp on CPU-only hardware.
-High-security mode has substantially higher communication overhead (driven by Beaver triple generation and the number of MPC rounds per layer).
-Performance scales with CPU model, cache hierarchy, core count, and available RAM bandwidth.
-
-Deja Vu sparsity prediction can further reduce computation by skipping non-contributing neurons and attention heads.
-Predictor calibration is a one-time step per model.
-
 ## Integration with Quilibrium
 
 Klearu is not yet integrated into the Quilibrium mainnet.
 When mainnet integration ships, private inference will be available as a network-native service for any application built on Quilibrium.
 Compute costs will be denominated in the same units used for all other Quilibrium computation, with no special billing layer.
 
-The library is available today for local use, development, and integration testing:
+The library is available today for local use, development, and integration testing.
+Developers can build and integrate against it now; the API surface is stable enough for experimentation and production pilots that do not require mainnet settlement.
 
-```bash
-git clone https://github.com/QuilibriumNetwork/klearu
-# LLM-only build (no monorepo dependency)
-cargo build --release -p klearu-llm
-# Full workspace build requires the Quilibrium monorepo as a sibling directory
-cargo build --release
-```
+## Known limitations
+
+- Mainnet integration is not yet available; private inference runs off-chain today.
+- GatedDeltaNet layers always run in plaintext even in high-security mode (normalized hidden state is revealed); workloads with strict intermediate-value privacy should account for this.
+- The OPRF hash-to-point function uses a custom AES-128-based construction rather than the IETF standard; its security analysis is not yet documented in the codebase.
+- MONGOOSE learnable hashing is not automatically wired into the SLIDE training loop; integration requires explicit caller-side setup.
+- Performance in high-security mode is bandwidth-bound; results depend heavily on network latency between the two parties.
 
 ## Licensing
 
@@ -309,3 +342,6 @@ Klearu is licensed under AGPL-3.0 with additional terms.
 Commercial use is restricted to the Quilibrium mainnet.
 Automated reimplementation for competing commercial products is explicitly prohibited.
 Non-commercial and development use is permitted under the standard AGPL-3.0 terms.
+
+---
+*Last updated: 2026-04-20*
