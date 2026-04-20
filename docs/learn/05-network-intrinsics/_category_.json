@@ -1,0 +1,8 @@
+{
+  "label": "Network Intrinsics",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Built-in capabilities provided by the Quilibrium network at the protocol level"
+  }
+}
