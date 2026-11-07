@@ -152,9 +152,9 @@ Add `--dry-run` at the end to not deploy, but perform error checks, as well as d
 
 To deploy a collectible, you need to first deploy the underlying images related to the distinct tokens. First, issue the deployment of the files:
 
-`qclient deploy file ./[0...999].png <Public Verifiable Encryption Key Bytes>`
+`qclient deploy file -d <Domain> --public ./[0...999].png`
 
-The resulting addresses of the deployed files will then be incorporated in the minting out process. For collectibles, unless you wish to provide individualized encryption keys for the files, we recommend using the public read key: `5b3afe03878a49b28232d4f1a442aebde109f807acef7dfd9a7f65b962fe52d6547312cacecff04337508f9d2529a8f1669169b21c32c48000`. The decryption key for this is: `2cf07ca8d9ab1a4bb0902e25a9b90759dd54d881f54d52a76a17e79bf0361c325650f12746e4337ffb5940e7665ad7bf83f44af98d964bbe`
+The resulting addresses of the deployed files will then be incorporated in the minting out process. For collectibles, we recommend `--public`. It seals each file to the public file key, a published sntrup761 keypair that every qclient carries, so anyone can read the file with `qclient deploy get <Address> <OutputPath>`. The fee is the same as for a private file. Without `--public`, a file is sealed to your own read key and only you can open it. The earlier public read key (`5b3afe03…`, decryption key `2cf07ca8…`) belongs to the retired verifiable encryption and does not work with current files.
 
 Deploying the token with a 1 QUIL to mint fee:
 

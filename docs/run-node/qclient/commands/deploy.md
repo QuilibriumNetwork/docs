@@ -100,33 +100,30 @@ qclient deploy compute -d 0x[32-byte hex string] \
 
 ## Deploy File
 
-Deploy encrypted files to the hypergraph.
+Deploy files to the hypergraph. A file is sealed to your read key unless `--public` is given.
 
 ```bash
-qclient deploy file [--domain|-d <DomainAddress>] <FileName> [<EncryptionKeyName>|<EncryptionKeyBytes>]
+qclient deploy file --domain|-d <DomainAddress> [--public] <FileName>
 ```
 
 **Parameters:**
-- `[--domain|-d <DomainAddress>]`: Optional domain for the file
+- `--domain|-d <DomainAddress>`: Domain for the file
+- `[--public]`: Seal to the public file key, so anyone can read the file (same fee); without it, only your read key opens it
 - `<FileName>`: Path to the file to deploy
-- `[<EncryptionKeyName>|<EncryptionKeyBytes>]`: Optional encryption key for secure storage, if omitted, uses the default file encryption key
 
 **Examples:**
 
-Deploy public file:
+Deploy a public file:
 ```bash
-qclient deploy file document.pdf
+qclient deploy file -d 0x[32-byte hex string] --public image.png
 ```
 
-Deploy encrypted file:
+Deploy a private file (your read key):
 ```bash
-qclient deploy file private-data.json 0x[57-byte hex string]...
+qclient deploy file -d 0x[32-byte hex string] private-data.json
 ```
 
-With domain specification:
-```bash
-qclient deploy file -d 0x[32-byte hex string] image.png
-```
+Retrieve a file with `qclient deploy get <FullAddress> <OutputPath>`. It tries your read key, then the public file key, and says which one opened the file.
 
 :::tip
 This command uses the standard file RDF schema for metadata storage.
